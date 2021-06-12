@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <title>Day 3</title>
+    <style>
+      table, th, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Quotations and Citations-->
+    <h1><bdo dir="ltr">Lorem ipsum</bdo></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <blockquote cite="www.something.com">Consectetur ullam laborum commodi atque molestias. Dicta, quibusdam ex. Laborum dignissimos ex sapiente natus voluptate neque nihil iusto soluta? Esse, atque provident?++
+        Consectetur ullam laborum commodi atque molestias. Dicta, quibusdam ex. Laborum dignissimos ex sapiente natus voluptate neque nihil iusto soluta? Esse, atque provident?++
+        Consectetur ullam laborum commodi atque molestias. Dicta, quibusdam ex. Laborum dignissimos ex sapiente natus voluptate neque nihil iusto soluta? Esse, atque provident?++
+        Consectetur ullam laborum commodi atque molestias. Dicta, quibusdam ex. Laborum dignissimos ex sapiente natus voluptate neque nihil iusto soluta? Esse, atque provident?++
+      </blockquote></p>
+    <q>Someone gave this thought provoking statement</q>
+    <cite>--Famous Person</cite>
+    <br>
+    <abbr title="Hyper Text Markup Language">HTML</abbr>
+
+    <p>To start a body of a webpage you need to provide <code style="background-color: darkgrey; color:darkred">body tag</code></p>
+    
+    <p>Contact me at:</p>
+    <address>
+      Akshaya Sanal<br>
+      someone@gmail.com<br>
+      github.com/abc-xyz.......<br>
+    </address>
+    
+    
+    <!--TABLE-->
+    <table width="100%;">
+      <caption>This is my first Table with HTML tags</caption>
+      <tr>
+        <th colspan="3">Col1</th>
+        <th>Col4</th>
+        <th>Col5</th
+      </tr>
+      <tr>
+        <td rowspan="2">Rw1Col1</td>
+        <td>Rw1Col2</td>
+        <td>Rw1Col3</td>
+        <td>Rw1Col4</td>
+        <td>Rw1Col5</td>
+      </tr>
+      <tr>
+        <td>Rw2Col2</td>
+        <td>Rw2Col3</td>
+        <td>Rw2Col4</td>
+        <td>Rw2Col5</td>
+      </tr>
+    </table>
+    
+    <!--FORM-->
+    <form>
+      <fieldset>
+        <legend>This is my first form</legend>
+        <label for="name">Name</label>    <!--Single line text-->
+        <input type="text" id="name" readonly><br>
+        <label for="quest">Do you love web designing..?</label><br>   <!--Radio button-->
+        <input type="radio" id="yes" value="yes" name="quest" disabled>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" value="no" name="quest">
+        <label for="no">No</label><br>
+        <label for="check">Tech stacks you know</label><br>
+        <input type="checkbox" id="html" value="html" name="check">   <!--Checkbox-->
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" value="css" name="check">
+        <label for="css">CSS</label><br>
+        <label for="email">Email ID: </label>   <!--Email-->
+        <input type="email" id="email" placeholder="someone@gmail.com"><br>
+        <select>    <!--Dropdown-->
+          <option>Option1</option>
+          <option>Option2</option>
+          <option>Option3</option>
+          <option>Option4</option>
+          <option>Option5</option>
+          <option>Option6</option>
+        </select><br>
+        <label for="date">Date</label>    <!--Date-->
+        <input type="date" id="date" max="2021-06-12" min="2021-05-20"><br>
+        <label for="text">Why you joined Uplift?</label>    
+        <textarea id="text" name="text" cols="30" rows="5" maxlength="15" required></textarea><br>    <!--TextArea-->
+        <button type="button">Click Here</button>   <!--Button-->
+        <button type="submit">Submit</button>   <!--Submit button-->
+        <button type="reset">Reset</button>   <!--reset button-->
+      </fieldset>
+    </form>
+
+  </body>
+</html>
