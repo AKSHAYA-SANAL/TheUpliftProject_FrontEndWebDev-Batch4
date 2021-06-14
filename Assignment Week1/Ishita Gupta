@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute - Mother Teresa</title>
+    <style>
+        .primary {
+            border: 3px solid black;
+            display: inline-block;
+            text-align: center;
+            background-color: rgb(215, 232, 240);
+        }
+
+        p {
+            font-size: 125%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <ul>
+                <h1>Contents</h1>
+                <li><a href="#section1">Who Was Mother Teresa?</a></li>
+                <li><a href="#section2">Missionaries of Charity</a></li>
+                <li><a href="#section3">Controversy</a></li>
+                <li><a href="#section4">Awards and Praises</a></li>
+            </ul>
+        </section>
+        <br><br>
+        <div class="primary">
+            <H1 style="font-size: 300%"> Mother Teresa</H1>
+            <img src="https://static.toiimg.com/photo/65666567.cms" alt="Mother Teresa image"><br><br><br>
+            <q style="font-size: 150%">We ourselves feel that what we are doing is just a drop in the ocean. But the
+                ocean would be less because of that missing drop.</q><br>
+            <cite><b>--Mother Teresa</b> </cite><br><br>
+
+            <section id="section1">
+                <h2>Who Was Mother Teresa?</h2>
+                <p>Nun and missionary Mother Teresa, known in the Catholic church as Saint Teresa of Calcutta, devoted
+                    her life to caring for the sick and poor. Born in Macedonia to parents of Albanian-descent and
+                    having taught in India for 17 years, Mother Teresa experienced her "call within a call" in 1946. Her
+                    order established a hospice; centers for the blind, aged and disabled; and a leper colony. In 1979
+                    she received the Nobel Peace Prize for her humanitarian work. She died in September 1997 and was
+                    beatified in October 2003. In December 2015, Pope Francis recognized a second miracle attributed to
+                    Mother Teresa, clearing the way for her to be canonized on September 4, 2016. </p><br>
+            </section>
+
+
+            <section id="section2">
+                <h2>Missionaries of Charity</h2>
+                <p>She began missionary work with the poor in 1948,[26] replacing her traditional Loreto habit with a
+                    simple, white cotton sari with a blue border. Teresa adopted Indian citizenship, spent several
+                    months in
+                    Patna to receive basic medical training at Holy Family Hospital and ventured into the slums.[40][41]
+                    She
+                    founded a school in Motijhil, Kolkata, before she began tending to the poor and hungry.[42] At the
+                    beginning of 1949 Teresa was joined in her effort by a group of young women, and she laid the
+                    foundation
+                    for a new religious community helping the "poorest among the poor"</p><br>
+            </section>
+
+
+            <section id="section3">
+                <h2> Controversy</h2>
+                <p>In 1995, she publicly advocated a "no" vote in the Irish referendum to end the country's
+                    constitutional
+                    ban
+                    on divorce and remarriage. The most scathing criticism of Mother Teresa can be found in Christopher
+                    Hitchens's book The Missionary Position: Mother Teresa in Theory and Practice, in which Hitchens
+                    argued
+                    that
+                    Mother Teresa glorified poverty for her own ends and provided a justification for the preservation
+                    of
+                    institutions and beliefs that sustained widespread poverty.</p> <br>
+            </section>
+
+
+            <section id="section4"></section>
+            <h2>Awards and Praises</h2>
+            <p>In February 1965, Pope Paul VI bestowed the Decree of Praise upon the Missionaries of Charity, which
+                prompted Mother Teresa to begin expanding internationally. By the time of her death in 1997, the
+                Missionaries of Charity numbered more than 4,000 — in addition to thousands more lay volunteers — with
+                610 foundations in 123 countries around the world</p><br>
+            </section>
+
+
+
+            <strong>To know more about Mother Teresa, goto <a
+                    href="https://en.wikipedia.org/wiki/Mother_Teresa">Wikipedia</a>
+            </strong>
+        </div>
+    </header>
+    <br>
+    <footer>
+        <div>Developed by - Ishita Gupta&copy; copyright</div>
+    </footer>
+
+</body>
+
+</html>
