@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tribute</title>
+        <style>
+            img {display: block; margin-left: auto;margin-right: auto;width: 40%;}
+            p {text-align: center;color: crimson;}
+            .new{style= text-align:center; color:blue;font-size: medium;}
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1 style = "text-align:center;color:black;font-family:arial;font-size:40px;text-decoration:underline"><b>Sushant Singh Rajput</b></h1>
+        </header>
+        <div class=".new">
+            <p1><a href="https://en.wikipedia.org/wiki/Sushant_Singh_Rajput"  target= "_blank" >Who is SSR?</a></p1>
+        </div>
+        <div class="img">
+            <img src="kaj/Sushant-Singh-Rajput-2.jpg" alt="SSR"/>
+        </div>
+        <div>
+            <p><br>Here is a quote by SSR.</br></p>
+        </div>
+        <ul>
+            <li>
+                <blockquote style="text-align: center;color: black; text-decoration-thickness: 2px;">The moment you know the limit, you are limitless!</blockquote>
+            </li>
+        </ul>
+        <br>
+        <footer>
+            <p>In memories of SSR.</p>
+            <p><a href="mailto.singhpragati135.com"><br>singhpragati135@example.com</b></a></p>
+        </footer>
+        </br>
+
+    </body>
+</html>
