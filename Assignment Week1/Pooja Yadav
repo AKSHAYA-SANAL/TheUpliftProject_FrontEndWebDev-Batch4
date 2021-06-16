@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        header {
+            background-color: rgb(154, 185, 115);
+            margin: 0px;
+            padding: 0px;
+            height: 10em;
+            text-align: center;
+        }
+        
+        img {
+            width: 40%;
+            height: 40%;
+        }
+        
+        footer {
+            background-color: rgb(154, 185, 115);
+            color: black;
+            text-align: center;
+            font-family: 'Raleway';
+            height: 10em;
+        }
+        
+        .dot {
+            color: blueviolet;
+            text-align: center;
+        }
+        
+        li {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header><br>
+        <center>
+            <h1>Capt Vikram Batra</h1>
+            <h4><i>Yeh Dil Maange more!!</i></h4>
+        </center>
+    </header><br>
+    <figure>
+        <center>
+            <img src="1.jpg" alt="photo">
+            <figcaption>Captain Vikram Batra during Kargil War</figcaption>
+        </center>
+    </figure><br><br><br>
+    <section>
+        <h1>
+            <center>
+                About the Legend</center>
+        </h1>
+        <p class="dot"><i>“Ya to Tiranga lehrakar aunga ya to Tirange main lipta chala aunga, par aunga jaroor”(Either I will be back after hoisting the flag or I will be back wrapped in it, but I will come back for sure).</p></i>
+            <br>
+            <ul>
+                <p>For More Information</p>
+                <li>
+                    <a href="https://starsunfolded.com/captain-vikram-batra/">About Sher shah.</a>
+                </li>
+                <li>
+                    <a href="https://www.brameshtechanalysis.com/2020/08/the-inspiring-story-legend-captain-vikram-batra/">The Inspiring Story</a>
+                </li>
+            </ul>
+
+    </section>
+    <footer class="footer"><br>
+        <div>
+            <p>Website Designed by Pooja yadav</p>
+            <p>All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
