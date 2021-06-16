@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Its a tribute page for my favourite one.. </title>
+    </head>
+    <body style="background-color:gainsboro;" >
+        <header >
+            <h1 style="color:black;text-align:center;font-family:serif">
+                A tribute to my favourite one ---
+                THE ALIA BHATT
+            </h1>
+        </header>
+        <style>
+            img{
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            video{
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            audio{
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        </style>
+        <figure>    
+            <img src="AliaBhatt6.jpg" alt="Alia Bhatt">
+        <figcaption style="text-align:center">Alia Bhatt</figcaption>
+        </figure>
+        <p style="color:cadetblue;text-align: center;font-family: cursive;font-size: large;">
+            Alia Bhatt was born on 15th March 1993 to Mahesh Bhatt and Soni Razdan. Both of her parents are related to film industry. Her father is a famous director and her mother is an actress. She have an elder sister, Shaheen Bhatt.
+        If we start to look her family background then we can see that , every member does some work in film industry. </p>
+        <figure>    
+            <img src="AliaBhatt1.jpg" alt="Alia Bhatt with her family members ">
+        <figcaption style="text-align:center">Alia Bhatt with her family members</figcaption>
+        </figure>
+        <h2 style="color: brown;text-align: center;font-family: cursive;font-size: x-large;">
+            Alia Bhatt's education qualification
+        </h2>
+        <p style="font-size: large;color: blueviolet;text-align: center;font-family: cursive;">
+            She did her schooling from Jamnabai Narsee School and she is just 10th pass.
+            But after completing her school she got a chance to debut in Karan Johar's movie Student of The Year which changed her life totally.
+        </p>
+            
+            <figure>    
+                <img src="AliaBhatt5.jpg" alt="Alia Bhatt with her family members ">
+            <figcaption style="text-align:center">Alia Bhatt's debut movie</figcaption>
+            </figure>
+            <h2 style="color: brown;text-align: center;font-family: cursive;font-size: x-large;">
+                Films played by her --
+            </h2>
+        <ol style="font-size: large;color: blueviolet;text-align: center;font-family: cursive;">
+        
+            <li>Student of the year</li>
+            <li>Highway</li>
+            <li>2 States</li>
+            <li>Humpty Sharma Ki Dulhania</li>
+            <li>Shandaar</li>
+            <li>Kapoor & Sons</li>
+            <li>Udta Punjab</li>
+            <li>Dear Zindagi</li>
+            <li>Badrinath Ki Dulhania</li>
+            <li>Raazi</li>
+            <li>Gully Boy</li>
+            <li>Kalank</li>
+            <li>Sadak 2</li>
+        </ol>
+        <h2 style="color: brown;text-align: center;font-family: cursive;font-size: x-large;" >
+            Some of the awards won by Alia Bhatt
+        </h2>
+        <p style="font-size: large;color: blueviolet;text-align: center;font-family: cursive;">There are many awards won by Alia Bhatt , some of them are listed below --</p>
+        
+        <figure>    
+             <img src="AliaBhatt2.jpg" alt="Alia Bhatt with her family members ">
+        <figcaption style="text-align:center">Alia Bhatt winning 65th Filmfare award as Best-actress</figcaption>
+        </figure>
+        <ul style="font-size: large;color: blueviolet;font-family: cursive;">
+            <li >Flimfare Awards for best actress</li>
+            <li >Screen Awards</li>
+            <li >Zee Cine Awards</li>
+            <li >International Indian Film Academy Awards</li>
+            <li >FOI Online Awards</li>
+        </ul>
+        
+        <h2 style="color: brown;text-align: center;font-family: cursive;font-size: x-large;">
+            Some of the best dialogues of Alia Bhatt
+        </h2>
+        <p><b style="font-size: x-large";>Dear Zindagi - </b><q style="font-size: large;"><i>Genius woh nahi hota jiske paas har sawaal ka jawab ho ... genius woh hota hai jiske paas har jawaab tak pahunchne ka patience ho.</i></q></p>
+        <p><b style="font-size: x-large";>Raazi - </b><q style="font-size: large;"><i>Watan ke aage kuch nahi ... khud bhi nahi</i></q></p>
+        <p><b style="font-size: x-large";>Sadak-2 - </b><q style="font-size: large;"><i>Humko duniya vaisi hi nazar aati hai jaise hum khud hote hai</i></q></p>
+        <p><b style="font-size: x-large";>Gangubai Kathiawadi - </b><q style="font-size: large;"><i>Zameen pe baithi bahut achi lag rahi hai tu ... aadat daal le ... kyun ki teri kursi toh gayi</i></q></p>
+        <p><b style="font-size: x-large";>Humpty Sharma Ki Dulhania - </b><q style="font-size: large;"><i>Badi kamai bade sheharon mein hoti hai</i></q></p>
+        <h2 style="color: brown;text-align: center;font-family: cursive;font-size: x-large";>
+            Tamma Tamma again video song from the movie Humpty Sharma Ki Dulhania  
+        </h2>
+        <p style="font-size: large;color: blueviolet;text-align: center;font-family: cursive;">
+            This song is from movie Badrinath Ki Dulhania which was directed by Shashank Khaitan and was released in 2017.
+            The lead actors were Alia Bhatt and Varun Dhawan.
+        </p>
+        <video controls height="800" width="800">
+            <source src="Tamma Tamma again.mp4" alt="Humpty Sharma Ki Dulhania">
+        </video>
+        <h2 style="color: brown;text-align: center;font-family: cursive;font-size: x-large";>
+            Gulaabo song from the movie Shandaar  
+        </h2>
+        <p style="font-size: large;color: blueviolet;text-align: center;font-family: cursive;">
+            This song is from movie Shandaar which was directed by Vikas Bahl and was released on 2015.
+            The lead actors were Alia Bhatt and Shahid Kapoor.
+        </p>
+        <audio controls >
+            <source src="Gulaabo (Shaandaar).mp3" alt="Shandaar">
+        </audio>
+        <footer>
+            <p>If you want to watch some of her best performances , click on below link</p>
+            <a href="https://www.youtube.com/watch?v=v3PS8WhvwGU">Click here</a>
+        </footer>
+    </body>
+</html>
