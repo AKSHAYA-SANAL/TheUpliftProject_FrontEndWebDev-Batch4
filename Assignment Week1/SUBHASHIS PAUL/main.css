@@ -1,0 +1,18 @@
+body
+{
+    text-align: center;
+}
+footer
+{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
