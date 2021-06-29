@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul{
+      list-style-type: none;
+      width: 150px;
+      background-color: cornsilk;
+      padding: 0px;
+      border: 2px double black;
+    }
+    li a{
+      background-color: grey;
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 15px;
+      padding-left: 5px;
+      border: 1px solid black;
+      margin: 2px;
+    }
+    a:hover{
+      font-size: 15px;
+    }
+    a:active{
+      font-size: 20px;
+    }
+    input:disabled{
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="https://uplift.girlscript.tech/">Home</a></li>
+    <li><a href="demo.html" class="active">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Activities</a></li>
+  </ul>
+  <form action="#">
+    <input type="text" placeholder="John Sam">
+    <input type="date" placeholder="text">
+  </form>
+</body>
+</html>
