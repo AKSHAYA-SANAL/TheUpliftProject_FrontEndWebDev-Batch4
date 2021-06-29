@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <style>
+      p{
+          color: tomato !important;
+      }
+      a:link{
+          color: black;
+      }
+      a:visited{
+          color: palevioletred;
+      }
+      a:hover{
+          color: red;
+      }
+      a:active{
+          color: green;
+      }
+      div{
+          border: 2px solid black;
+          width: 50%;
+      }
+      div:hover{
+          background-color: orangered;
+      }
+      p:first-child{
+          font-family: monospace;
+      }
+      p::selection{
+          color: blue;
+          background-color: yellow;
+      }
+      p.first::first-line{
+          font-style: italic;
+      }
+      p{
+          color: black;
+      }
+  </style>
+</head>
+<body>
+    <h1>Demo</h1>
+  <a href="demo.html" active>Home</a>
+  <a href="#">About</a>
+  <a href="#">Home1</a>
+  <a href="#">About1</a>
+  <div>
+      <p class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eligendi doloribus saepe quas quae optio quos, sequi at nisi quam, facere dignissimos ad aliquid. Itaque quas culpa doloremque molestias beatae.</p>
+      <p>how are you</p>
+  </div>
+</body>
+</html>
