@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .nav{
+      list-style-type: none;
+      background-color:black;
+      border: 10px outset black;
+      padding: 5px;
+      margin: 0px;
+      left: 0px;
+      top: 0px;
+      width: 98%;
+      overflow: hidden;
+    }
+    nav li{
+      background-color: black;
+      margin: 1%;
+      padding: 1%;
+      width: 10%;
+      float: right;
+      display: inline-block;
+      border-radius: 30px;
+      text-align: center;
+      border: 12px groove black;
+    }
+    nav li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      top: 5px;
+    }
+    .img{
+      width:99%;
+      overflow: hidden;
+    }
+    .content{
+      width:100%;
+      margin:2%;
+      padding: 1%;
+      margin-top: 5%;
+    }
+    nav li a:hover{
+      font-size: 22px;
+      font-weight: bolder;
+    }
+    .active{
+      background-color: white;
+      color: black;
+      font-weight: bolder;
+      font-family: monospace;
+    }
+    #para{
+      color: red;
+    }
+    .logo{
+        border: none;
+        background-color: transparent;
+        height: 20px;
+        padding: 0px;
+        margin:0px;
+        display: block;
+    }
+    .logo img{
+        height:100px;
+        padding: 0px;
+        margin:0px;
+    }
+    .drop-content{
+        margin: 1%;
+        padding: 2%;
+        display: none;
+        position: absolute;
+        background-color: black;
+        width: 6%;
+        top: 100px;
+        box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.4);
+    }
+    .drop-content a{
+        display: block;
+        padding: 1%;
+        margin:1%;
+        font-family: cursive;
+    }
+    .drop:hover .drop-content{
+        display: block;
+    }
+    .dropimg{
+        position: absolute;
+        display:none;
+        width: 400px;
+        
+    }
+    .dropimg img{
+        width: 100%;
+        height: fit-content;
+    }
+    .idrop:hover .dropimg{
+        display:block;
+        box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <nav>
+        <li class="logo idrop" style="float:left"><img src="Project/image/icon.png" alt="icon">
+            <div class="dropimg">
+                <img src="Project/image/icon.png" alt="icon">
+            </div>
+        </li>
+        <li class="active"><a href="https://uplift.girlscript.tech/" class="active">Home</a></li>
+        <li><a href="demo.html">About</a></li>
+        <li><a href="#para">Contact</a></li>
+        <li class="drop"><a href="#" class="dropa">Activities</a>
+            <div class="drop-content">
+                <a href="#">Drop1</a>
+                <a href="#">Drop2</a>
+                <a href="#">Drop3</a>
+                <a href="#">Drop4</a>
+            </div>
+        </li>
+    </nav>
+    <!--<div class="img">
+      <img src="Project/image/lamp.jpg" alt="lamp">
+    </div>-->
+  </div>
+  <div class="content">
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section" id="para">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+  </div>
+</body>
+</html>
