@@ -6,46 +6,131 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    ul{
+    .nav{
       list-style-type: none;
-      width: 150px;
-      background-color: cornsilk;
-      padding: 0px;
-      border: 2px double black;
+      background-color:cornsilk;
+      border: 10px outset black;
+      padding: 5px;
+      margin: 0px;
+      left: 0px;
+      top: 0px;
+      position: fixed;
+      width: 25%;
+      height: 100%;
+      overflow: hidden;
     }
-    li a{
-      background-color: grey;
-      display: block;
+    nav li{
+      background-color: black;
+      margin: 2%;
+      padding: 5%;
+      width: 80%;
+      border-radius: 30px;
+      text-align: center;
+      border: 12px groove black;
+    }
+    nav li a{
       text-decoration: none;
       color: white;
-      font-weight: bold;
-      padding: 15px;
-      padding-left: 5px;
-      border: 1px solid black;
-      margin: 2px;
-    }
-    a:hover{
-      font-size: 15px;
-    }
-    a:active{
       font-size: 20px;
+      text-align: center;
+      width: 100%;
     }
-    input:disabled{
-      background-color: black;
-      color: white;
+    .img{
+      width:99%;
+      overflow: hidden;
+    }
+    .content{
+      width:72%;
+      float: right;
+    }
+    nav li a:hover{
+      font-size: 22px;
+      font-weight: bolder;
+    }
+    .active{
+      background-color: white;
+      color: black;
+      font-weight: bolder;
+      font-family: monospace;
+    }
+    #para{
+      color: red;
     }
   </style>
 </head>
 <body>
-  <ul>
-    <li><a href="https://uplift.girlscript.tech/">Home</a></li>
-    <li><a href="demo.html" class="active">About</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Activities</a></li>
-  </ul>
-  <form action="#">
-    <input type="text" placeholder="John Sam">
-    <input type="date" placeholder="text">
-  </form>
+  <div class="nav">
+    <nav>
+      <li class="active"><a href="https://uplift.girlscript.tech/" class="active">Home</a></li>
+      <li><a href="demo.html">About</a></li>
+      <li><a href="#para">Contact</a></li>
+      <li><a href="#">Activities</a></li>
+    </nav>
+    <div class="img">
+      <img src="Project/image/lamp.jpg" alt="lamp">
+    </div>
+  </div>
+  <div class="content">
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+    <div class="section" id="para">
+      <h1>Heading 1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut velit odio iure optio
+        repudiandae excepturi quibusdam eius cupiditate amet, 
+        nobis enim expedita, nemo, ex voluptatibus quos numquam magnam harum!</p>
+    </div>
+  </div>
 </body>
 </html>
