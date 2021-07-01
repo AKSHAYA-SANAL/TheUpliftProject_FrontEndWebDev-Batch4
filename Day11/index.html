@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+    /*GRADIENT*/
+    
+    /*body{
+      background-image: radial-gradient(farthest-corner at 60% 12% , blue 5%, pink 12%, red);
+      height: 720px;
+    }*/
+    /*h1{
+      background-image: -webkit-linear-gradient(60deg, blue, pink, red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 200px;
+    }*/
+    
+    /*TRANSITION & ANIMATION*/
+    div{
+      height: 100px;
+      width: 100px;
+      /*background-color: red;*/
+      /*transform: translate(200px, 200px) rotate(-30deg) scaleX(3) scaleY(0.5) rotateZ(40deg) skewX(25deg);
+      transition: width 2s, transform 4s;
+      transition-timing-function: ease;
+      transition-delay: 1s;*/
+      animation-name: anim;
+      animation-duration: 4s;
+      animation-delay: 1s;
+      /*animation-iteration-count: infinite;*/
+      /*animation-direction: reverse;*/
+      animation-timing-function: ease;
+      animation-fill-mode: both;
+    }
+    @keyframes anim{
+      0% {top: 300px; background-color: red;}
+      20% {background-color: yellow;}
+      40% {background-color: blue;}
+      60% {background-color: green;}
+      80% {background-color: black;}
+      100% {top: 0px; background-color: chartreuse;}
+    }
+    /*div:hover{
+      width: 50px; 
+      transform: translate(200px, 200px) rotate(-30deg) scaleX(3) scaleY(0.5) rotateZ(40deg) skewX(25deg);
+      
+    }*/
+  </style>
+
+</head>
+<body>
+  <!--<h1>Heading</h1>-->
+  <div></div>
+</body>
+</html>
