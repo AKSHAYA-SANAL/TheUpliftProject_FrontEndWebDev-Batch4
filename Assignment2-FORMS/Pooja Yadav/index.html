@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <style>
+      .container {
+    background-color: crimson;
+    margin: 0px;
+    padding: 0px;
+    height: 10em;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+div {
+    padding: 10px 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container1 {
+    background-image: url("fig4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%, 100%, 100%;
+}
+
+input[type=text],
+input[type=email]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus
+input[type=email]:focus {
+    background-color: crimson;
+    outline: none;
+}
+
+.subtn,
+.reset {
+    display: inline-block;
+    color: #fff;
+    background: crimson;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.subtn:hover,
+.reset:hover{
+    color:black;
+    background-color: #fff;
+}
+  </style>
+</head>
+
+<body>
+    <form>
+        <center>
+            <figure>
+                <img src="fig.jpg" alt="photo">
+            </figure>
+            <div class="container">
+                <br>
+                <h1>Sports BootCamp</h1>
+                <h4><i>Play more <br>Grow more!!</i></h4>
+            </div>
+        </center>
+        <hr>
+        <div class="container1">
+            <label> Firstname </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+            <label> Middlename: </label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+            <label> Lastname: </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+            <div>
+                <label>Interest :</label>
+                <select>  
+                <option value="Interest">Interest..</option>  
+                <option value="Military-style bootcamp">Military-style bootcamp</option>  
+                <option value="Athletes-style bootcamp">Athletes-style bootcamp</option>  
+                <option value="Yoga-calm Style bootcamp">Yoga-calm Style bootcamp</option>
+                </select>
+            </div>
+            <div>
+                <label>Gender :</label><br>
+                <input type="radio" value="Male" name="gender" checked> Male
+                <input type="radio" value="Female" name="gender"> Female
+                <input type="radio" value="Other" name="gender"> Other
+            </div>
+            <div>
+                <label>Date Of Birth :</label>
+                <input type="date" name="DOB" required>
+            </div>
+            <div>
+                <label>Email-Id :</label>
+                <input type="email" name="email" placeholder="email-Id" required>
+            </div>
+            <div>
+                <label>Phone :</label>
+                <input type="text" name="country code" placeholder="Country Code" value="+91" size="2" />
+                <input type="text" name="phone" placeholder="phone no" size="10" / required>
+            </div>
+            <div>
+                <input type="checkbox" id="check" name="check">
+                <label for="id">All the details provided above are genuine</label><br>
+            </div>
+            <div>
+                <center>
+                    <button type="submit" class="subtn">Register</button>
+                    <button type="reset" class="reset">Reset</button>
+                </center>
+            </div>
+        </div>
+
+</body>
+
+</html>
