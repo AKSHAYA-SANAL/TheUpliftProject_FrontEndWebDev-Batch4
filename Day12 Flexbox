@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    header{
+      background-color: black;
+      color: white;
+      height: 100px;
+      text-align: center;
+    }
+    div{
+      color:white;
+      margin: 1%;
+    }
+    .one{
+      background-color: red;
+      flex: 1 200px;
+    }
+    .two{
+      background-color: blue;
+      flex: 2 300px;
+    }
+    .three{
+      background-color: green;
+    }
+    .flex-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 1%;
+    }
+    div.button{
+      display:flex;
+      height: 400px;
+      width: 100%;
+      align-items: center;
+    }
+    button{
+      background-color: white;
+      color: black;
+      border: 5px solid black;
+      border-radius: 10px 20px;
+      padding: 1%;
+      margin: 1%;
+    }
+    button:first-child{
+      align-self: flex-end;
+    }
+    button:nth-child(4){
+      align-self:flex-start;
+    }
+    button:nth-child(2){
+      align-self: stretch;
+    }
+    .toolbtn{
+      padding: 15%;
+    }
+    .toolcon{
+      background-color: gainsboro;
+      color: black;
+      border: 3px groove black;
+      border-radius: 5px;
+      visibility: hidden;
+      left: 2px;
+    }
+    .tool:hover .toolcon{
+      visibility: visible;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Lorem Ipsum</h1>
+  </header>
+  <div class="flex-container">
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <div class="button">
+        <button>Button1</button>
+        <button>Button2</button>
+        <div class="tool">
+          <button class="toolbtn">Button3</button>
+          <p class="toolcon">This is Button3</p>
+        </div>
+        <button>Button4</button>
+        <button>Button5</button>
+      </div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="one">
+      <h2>Heading1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="two">
+      <h2>Heading2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+    <div class="three">
+      <h2>Heading3</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsam numquam modi eveniet, quos accusantium nostrum? Odit, id, corporis sit neque ipsam veniam laboriosam enim fuga voluptatem aliquid illo sint.</p>
+    </div>
+  </div>
+</body>
+</html>
