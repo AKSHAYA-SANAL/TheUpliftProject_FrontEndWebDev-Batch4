@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    div.grid-container{
+      background-color: white !important;
+      display: grid;
+      /*grid-template-rows: 300px 150px 200px;
+      grid-template-columns: 3% 1fr 1fr;*/
+      /*grid-template-rows: minmax(150px, auto);*/ 
+      /*grid-template-columns: minmax(auto, 150px) 1fr 400px;*/
+      grid-template-columns: 100px repeat(3, 1fr) 200px minmax(auto, 120px);
+      grid-template-rows: repeat(3, 200px);
+      /*grid-row-gap: 20px;
+      grid-column-gap: 30px;*/
+      grid-gap: 20px /*30px*/;
+      /*grid-template-areas: *header header*
+                          *content sidebar*
+                          *footer footer*;
+      grid-template-rows: 150px 1fr 100px;
+      grid-template-columns: 1fr 300px;*/
+    }
+    div{
+      background-color: red;
+      color: white;
+      /*border: 5px solid white;*/
+    }
+    .d1{
+      grid-row-start: 1;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-end: 3;
+    }
+    ./*d1{
+      grid-row-start: header;
+      grid-row-end: header;
+      grid-column-start: header;
+      grid-column-end: header;
+    }
+    .d2{
+      grid-column: footer;
+      grid-row: footer;
+    }*/
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="d1"><h1>1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut voluptates quod amet dolores consequuntur, facilis possimus mollitia incidunt ratione maxime quisquam ab enim provident aliquid earum iure corporis repellendus nisi.
+    </p></div>
+    <div class="d2"><h1>2</h1></div>
+    <div class="d3"><h1>3</h1></div>
+    <div><h1>4</h1></div>
+    <!--<div><h1>5</h1></div>
+    <div><h1>6</h1></div>
+    <div><h1>7</h1></div>
+    <div><h1>8</h1></div>
+    <div><h1>9</h1></div>-->
+  </div>
+</body>
+</html>
