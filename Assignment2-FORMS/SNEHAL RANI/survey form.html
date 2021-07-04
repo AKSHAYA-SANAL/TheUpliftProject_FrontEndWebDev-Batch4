@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="test form.css">
+    <link href="test form.css" rel="stylesheet">
+    <title>Survey Form</title>
+
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <center><h3 style="color:white">Learn , Grow and Develop  Together!!!</h3></center>
+     
+    <div id="bulle">
+    
+    <form id="survey-form" action="form">
+       
+        <div class="vertical">
+
+        <label id="name-label" for="name">Name</label>
+        <input  id="name" type="text" name="name" placeholder="Enter your  name" required>
+        
+
+    </div>
+    
+    <div class="vertical">
+
+        <label id="email-label" for="e-mail">E-mail</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+    </div>
+
+    <div class="vertical">
+
+        <label id="number-label" for="number">Age</label>
+        <input id="number" min="0" max="99" type="number" name="number" placeholder="Enter your age" required>
+        
+    </div>
+
+
+    <div class="vertical">
+
+        <label >*Which option best describes your current role?</label>
+        <select name="choice" id="dropdown">
+
+                <option value="student">Student</option>
+    
+                <option value="Professional">Full time job professional</option>
+    
+                <option value="Professional">Part time job professional</option>
+    
+                <option value="Hobby">Hobby</option>
+    
+                </select>
+
+            </div>
+
+            <div class="vertical">
+
+        <label style="text-align:center" >*How likely is that you would recommend it to a friend?</label>
+        <label>Definitely<input value="1" name="radio-buttons" type="radio"></label>
+        <label>Maybe<input  value="2" name="radio-buttons" type="radio"></label>
+        <label>Not sure<input value="3" name="radio-buttons" type="radio"></label>
+
+    </div>
+
+    <div class="vertical">
+
+
+        <label style="text-align:center" for="">*Things that should be improved in the future(Check all that apply):</label>
+        <label for="userRatings"><input name="prefer" value="1" type="checkbox" class="userRatings" ></input>Front-end development</label>
+        <label for="userRatings"><input name="prefer" value="2" type="checkbox" class="userRatings" ></input>Back-end development</label>
+        <label for="userRatings"><input name="prefer" value="3" type="checkbox" class="userRatings" ></input>Web-design development</label>
+        <label for="userRatings"><input name="prefer" value="4" type="checkbox" class="userRatings" ></input>Freelancing</label>
+        <label for="userRatings"><input name="prefer" value="5" type="checkbox" class="userRatings" ></input>Competative Programming</label>
+        <label for="userRatings"><input name="prefer" value="6" type="checkbox" class="userRatings" ></input>Open Source development</label>
+        <label for="userRatings"><input name="prefer" value="7" type="checkbox" class="userRatings" ></input>Internship guidance</label>
+        <label for="userRatings"><input name="prefer" value="8" type="checkbox" class="userRatings" ></input>Colleges contents</label>
+
+    </div>
+
+    <div class="vertical">
+
+        <label class="vertical" for="comment">*Any Comments or Suggestions?<textarea rows="4" cols="30" id="comment"></textarea></label>
+
+    </div>
+
+    <div id="button">
+        <button id="submit">submit</button>
+        <button type ="reset">reset</button>
+       
+
+    </div>
+    <p id="description">Let us know how we can improve our services</p>
+
+    </form>
+
+</div>
+<footer>
+
+        <h4>For further queries contact:-</h4>
+        <h4>Snehal Rani    phone no:- 123456789</h4>
+        <h4>Email-Id:- hod134@gmail.com</h4>
+         copyright&copy;Snehal_Rani
+ </footer> 
+</body>
+</html>
