@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background: url("rz.jpg");
+    background-size: 100% ;
+    background-position: -400px 0px;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+
+}
