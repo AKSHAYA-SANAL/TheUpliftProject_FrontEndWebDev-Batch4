@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./formstyle.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="form">
+                <h1>Covid Positive Details</h1>
+                <div class="bor">
+                    <form>
+                        <a>
+                            <div class="a1">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name ">
+                            </div>
+                        </a>
+                        <br>
+                        <a>
+                            <label for="date">At which date you got positive</label>
+                            <input type="date" id="date" name="date">
+                        </a>
+                        <br>
+                        <a>
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="enter your email">
+                        </a>
+                        <br>
+                        <a>
+                            <label for="tele">Your phone number</label>
+                            <input type="tel" id="tele" name="tele" placeholder="your phone number">
+                        </a>
+                        <br>
+                        <a>
+                            <label>Confirmed through which test?</label>
+                            <br>
+                            <label for="vhdl">VHDL</label>
+                            <input type="radio" id="vhdl" name="tes" value="vhdl">
+                            <label for="rtpcr">RTPCR</label>
+                            <input type="radio" id="rtpcr" name="tes" value="rtpcr">
+                            <label for="rapid">RAPID</label>
+                            <input type="radio" id="rapid" name="tes" value="rapid">
+                        </a>
+                        <br>
+                        <a>
+                            <label>Covid Symptoms you are facing</label>
+                            <br>
+                            <input type="checkbox" id="cold" name="sym" value="cold">
+                            <label for="cold">COLD</label>                    
+                            <br>
+                            <input type="checkbox" id="fever" name="sym" value="fever">
+                            <label for="fever">FEVER</label>                    
+                            <br>
+                            <input type="checkbox" id="los" name="sym" value="loss of taste and smell">
+                            <label for="los">LOSS OF TASTE AND SMELL</label>                    
+                            <br>
+                            <label for="others">OTHERS:</label>
+                            <input type="text" id="others" name="sym" placeholder="mention other symptoms">
+                        </a>
+                        <br>
+                        <a>
+                            <label for="ap">Are you suffereing from breating problem?</label>
+                            <select name="ap" id="ap">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                                <option value="I Don't Know">I Don't Know</option>
+                            </select>
+                        </a>
+                        <br><br><br>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                        <br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
