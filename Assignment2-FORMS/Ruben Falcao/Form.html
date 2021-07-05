@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Forms </title> 
+  <style>
+    body{
+      background: chartreuse url("logo.jpeg") no-repeat fixed top right;
+    }
+    button:hover{
+     background-color:skyblue;
+     font-size:14px;
+    }
+    a:link{
+      color: red;
+    }
+    a:visited{
+      color: black;
+    }
+    a:hover{
+      background-color: antiquewhite;
+    }
+    a:active{
+      background-color: blue;
+    }
+  </style> 
+</head>
+<body>
+  <h1>Internship Application Form</h1>
+  <form>
+    <label for="name"> <b> Name : </b></label>
+    <input type="text" id="name" placeholder="Jonas Dias" name="name"><br><br>
+    <label for="email"> <b>Email : </b> </label>
+    <input type="email" placeholder="jonasdias@gmail.com" name="email" id="email"><br><br>
+    <label for="ph"> <b> Phone No. : </b> </label>
+    <input type="tel" placeholder="1234567890" name="ph" maxlength="10" id="ph"><br><br>
+    <label for="date"> <b> When can you join us ?</b></label>
+    <input type="date" name="date" min="2021-07-05" id="date"><br><br>
+
+    <label for="first"> <b> Is this your 1st Internship ?</b></label><br><br>
+    <input type="radio" name="yesorno" value="Yes" id="yes">
+    <label for="Yes" id="yes">Yes</label><br>
+    <input type="radio" name="yesorno" value="No" id="no">
+    <label for="No" id="no">No</label><br><br>
+
+    <label for="lang"><b>  Which languages do you know ?</b></label><br><br>
+    <input type="checkbox" name="lang" value="HTML">
+    <label for="lang">HTML</label><br>
+    <input type="checkbox" name="lang" value="JavaScript">
+    <label for="lang">JavaScript</label><br>
+    <input type="checkbox" name="lang" value="CSS">
+    <label for="lang">CSS</label><br>
+    <input type="checkbox" name="lang" value="BootStrap">
+    <label for="lang">BootStrap</label><br>
+    <input type="checkbox" name="lang" value="Java">
+    <label for="lang">Java</label><br>
+    <input type="checkbox" name="lang" value="PHP">
+    <label for="lang">PHP</label><br><br>
+
+    <label for="field"> <b> Which field do you want to do the Internship in ?</b></label><br>
+    <select name="Field" id="field">
+      <option value="Select">Select</option>
+      <option value="Front-End Developer">Front-End Developer</option>
+      <option value="App Design and Development">App Design and Development</option>
+      <option value="Back-End Developer">Back-End Developer</option>
+      <option value="Web Design and Development">Web Design and Development</option>
+      <option value="Full Stack Developer">Full Stack Developer</option>
+    </select><br><br>
+    <label for="ans"><b>Why should we hire you ?  </b></label><br>
+    <textarea rows="5" cols="35" placeholder="Enter your answer here"></textarea>
+    <p> <b> For any questions or info regarding the Internship , kindly contact me on LinkedIn : </b><a href="https://www.linkedin.com/in/ruben-falcao-172846206">Ruben Falcao</a></p>
+    <button type="submit"> <b> Submit </b></button> &nbsp &nbsp
+    <button type="reset"> <b> Reset </b></button>
+  </form>
+</body>
+</html>
