@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweat Gym & Fitness</title>
+    <style>
+        body {
+            display: inline-block;
+            margin-top: 20px;
+            margin: 5px 5px;
+            background: url(./img/sven-mieke-jO6vBWX9h9Y-unsplash.jpg) no-repeat center center/cover;
+        }
+
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            background-color: #210707;
+            opacity: 0.86;
+        }
+
+        legend {
+            text-align: center;
+            font-size: 34px;
+        }
+
+        form {
+            color: white;
+            margin-top: 2px 3px;
+        }
+
+        .primary {
+            display: inline-block;
+            padding: 5px 17px;
+            opacity: 0.85;
+        }
+
+        .primary h1 {
+            margin-top: 60px;
+            font-size: 73px;
+            font-weight: bold;
+
+        }
+
+        div.img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: #515c63;
+            width: 100%;
+            animation-name: container;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: alternate;
+            animation-timing-function: ease-in-out;
+            overflow: hidden;
+        }
+
+        @keyframes container {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        figure {
+            display: inline-block;
+        }
+
+        figure img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-color: white;
+            border: white 1px solid;
+        }
+
+        .secondary {
+            margin: 53px 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name {
+            display: inline-flex;
+        }
+
+        #fname {
+            margin-right: 21px;
+            margin-left: 4px;
+        }
+
+        #lname {
+            margin-left: 14px;
+        }
+
+        .other {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .secondary input {
+            width: -5px;
+            background-color: white;
+            border-radius: 11px;
+            padding: 8px 25px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        #options {
+            background-color: black;
+            color: white;
+            height: 53px;
+            width: 270px;
+            font-size: 23px;
+        }
+        textarea{
+            border-radius: 11px;
+        }
+        .btn input {
+            border-radius: 39px;
+            height: 48px;
+            width: 187px;
+        }
+        #subtn:hover,
+        #rebtn:hover {
+            background-color: rgb(12, 12, 11);
+            border: 4px white solid;
+            color: white;
+        }
+        label,
+        h3 {
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .check {
+            font-size: 23px;
+        }
+        p {
+            width: 597px;
+            height: 115px;
+            margin: 2px 3px;
+            font-size: 20px;
+            border: 6px rgb(2, 2, 51) solid;
+            background-color: white;
+            opacity: 0.8;
+            padding: 22px 16px;
+            border-radius: 16px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="unknown.php">
+        <fieldset>
+            <legend>
+                <h2>Registration Form</h2>
+            </legend>
+            <div class="container">
+                <figure>
+                    <img src="./img/silhouette-3276824_1280.png" alt="photo">
+                </figure>
+                <div class="primary">
+                    <h1>SweatFitnessGym </h1>
+                </div>
+            </div>
+            <div class="secondary">
+                <div class="name">
+                    <label for="fname">First Name: </label>
+                    <div>
+                        <input type="text" name="myName" id="fname" required>
+                    </div>
+                    <br>
+                    <label for="lname">Last Name: </label>
+                    <div>
+                        <input type="text" id="lname" required>
+                    </div>
+                </div>
+
+                <div class="other">
+                    <br>
+                    <label for="mail">Email</label><br>
+                    <div>
+                        <input type="email" id="mail" placeholder=" ex: someone@gmail.com" required>
+                    </div>
+                    <br>
+                    <label for="dateob"> Date of Birth: </label><br>
+                    <div>
+                        <input type="date" id="dateob" required>
+                    </div>
+                    <br>
+                    <label for="age"> Age: </label><br>
+                    <div>
+                        <input type="number" id="age" required>
+                    </div>
+                    <br>
+                    <label for="male"> Choose Gender: </label><br>
+                    <div>
+                        Male <input type="radio" name="myGender" id="male"> Female <input type="radio" name="myGender"
+                            id="female">
+                        Other <input type="radio" name="myGender" id="other">
+                    </div>
+                    <br>
+                    <label for="weight">Weight(kg) : </label><br>
+                    <div>
+                        <input type="number" id="weight" placeholder="ex: 70" required>
+                    </div>
+                    <br>
+                    <label for="Height">Height(cm) : </label><br>
+                    <div>
+                        <input type="number" id="Height" placeholder="ex: 175" required>
+                    </div>
+                    <br>
+                    <label for="yes"> Do you want a personal trainer? </label><br>
+                    <div>
+                        Yes <input type="radio" name="trainer" id="yes"> No <input type="radio" name="trainer" id="no">
+                    </div>
+                    <br>
+                    <label for="address">Adress :</label>
+                    <div>
+                        <br><textarea name="myText" cols="60" rows="4"></textarea><br>
+                    </div>
+                    <br>
+                    <label for="options">Choose programme you want to enroll in : </label><br>
+                    <div>
+                        <select name="programme" id="options" required>
+                            <option value="workout">Gym Workout</option>
+                            <option value="yoga">Yoga</option>
+                            <option value="Zumba">Zumba</option>
+                            <option value="cardio">Cardio</option>
+                            <option value="aerobics">Aerobics</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="conditions">
+                        <h3>Terms and conditions </h3>
+                        <p>
+                            1.Memberships are Non-Transferable & Non-Refundable. <br>
+                            2.All members must be over 16 to avail of facilities <br>
+                            3.Membership may be renewed on payment in accordance with the terms <br>
+                            4.By joining the club, members automatically agree to be bound by conditions of membership.
+                            <br>
+                        </p>
+                    </div><br>
+
+                    <div class="check">
+                        <input type="checkbox" name="myEligibility" required> I have read all the Terms and conditions
+                    </div>
+                    <br> <br>
+                    <div class="btn">
+                        <input type="submit" value="Submit Now" id="subtn">
+                        <input type="reset" value="Reset Now" id="rebtn">
+                    </div>
+                </div>
+
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
