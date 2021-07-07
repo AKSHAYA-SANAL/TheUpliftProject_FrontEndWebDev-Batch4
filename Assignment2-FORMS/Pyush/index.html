@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Balthazar|Poppins" rel="stylesheet">
+  <script src="myscripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    
+    <header>
+      <h1 id="title">College Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve our institution</p>
+    </header>
+
+
+    <form id="survey-form" >
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="input-style"
+            placeholder="Enter your name eg: Pyush Gupta"
+            required
+          >
+      </div>
+      
+
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input-style"
+            placeholder="Enter your Email eg: example@xyz.com"
+            required
+          >
+      </div>
+
+
+      <div class="form-group">
+        <label id="tele-label" for="tele">Mobile</label>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            class="input-style"
+            placeholder="Enter your Phone No. eg: 0123456789"
+            required
+          >
+      </div>
+
+
+      
+      <div class="form-group">
+        <label id="number-label" for="numer">Date of Birth</label>
+          <input
+            type="date"
+            name="date"
+            id="date"
+            class="input-style"
+            required
+          >
+      </div>
+
+
+      <div class="form-group">
+        <label id="number-label" for="numer">Year of passing</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            class="input-style"
+            min="1990"
+            max="2025"
+            placeholder="Year of Passing eg: 2022"
+            required
+          >
+      </div>
+
+
+
+
+      
+      <div class="form-group">
+        <p>College Specialization</p>
+        <select name="class" id="dropdown" class="input-style" required>
+          <option disabled selected value>---Select---</option>
+          <option value="cse">Computer Science & Engineering</option>
+          <option value="mec">Mechanical Engineering</option>
+          <option value="ee">Electrical Engineering</option>
+          <option value="be">Bio-Engineering</option>
+          <option value="ece">Electronic and Communication Engineering</option>
+          <option value="ce">Civil Engineering</option>
+          <option value="it">Information Technology</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+    
+      <div class="form-group">
+        <p>What is Your Year in College?</p>
+
+        <label for="1">
+          <input type="radio" name="year" value="freshman" class="radio-style" checked>
+          Freshman (1<sup>st</sup> Year)</label>
+
+        <label for="2">
+          <input type="radio" name="year" value="sophmore" class="radio-style">
+          Sophmore (2<sup>nd</sup> Year)</label>
+
+        <label for="3">
+          <input type="radio" name="year" value="junior" class="radio-style">
+          Junior (3<sup>rd</sup> Year)</label>
+        
+        <label for="4">
+          <input type="radio" name="year" value="senior" class="radio-style">
+          Senior (4<sup>th</sup> Year)</label>
+        
+        <label for="5+">
+          <input type="radio" name="year" value="super" class="radio-style">
+          Super Senior (5+ Years)</label><br>
+
+      </div>
+
+  
+      <div class="form-group">
+        <p>which are your favourite On-Campus Foods <i>(Check all that apply)</i> </p>
+
+        <label>
+          <input type="checkbox" id="food1" name="food1" value="yablokoff" class="checkbox-style">
+          Yablokoff Wallace Dining Center (aka old DC)</label>
+
+        <label>
+          <input type="checkbox" id="food2" name="food3" value="cascabel" class="checkbox-style">
+          Cascabel (The Pavilion)</label>
+
+        <label>
+          <input type="checkbox" id="food3" name="food3" value="ciao" class="checkbox-style">
+          Ciao (The Pavilion)</label>
+
+        <label>
+          <input type="checkbox" id="food4" name="food4" value="grounds" class="checkbox-style">
+          Common Grounds (The Pavilion)</label>
+
+        <label>
+          <input type="checkbox" id="food5" name="food5" value="greens" class="checkbox-style">
+          Field of Greens (The Pavilion)</label>
+
+        <label>
+          <input type="checkbox" id="food6" name="food6" value="wok" class="checkbox-style">
+          Lake Wok (The Pavilion)</label>
+
+        <label>
+          <input type="checkbox" id="food7" name="food7" value="grill" class="checkbox-style">
+          Rufus Grill (The Pavilion)</label>
+
+        <label>
+          <input type="checkbox" id="food8" name="food8" value="trucks" class="checkbox-style">
+          Food Trucks</label>
+
+        <label>
+          <input type="checkbox" id="food9" name="food9" value="cafe" class="checkbox-style">
+          Lantern Cafe</label>
+
+        <label>
+          <input type="checkbox" id="food10" name="food10" value="summits" class="checkbox-style">
+          Summits Marketplace</label>
+
+        <label>
+          <input type="checkbox" id="food11" name="food11" value="others" class="checkbox-style">
+          Others</label>
+      </div>
+
+        
+        <div class="form-group">
+          <p>Additional Comments & Suggestions</p>
+          <textarea
+            name="comment"
+            id="comments"
+            class="textarea-style"
+            placeholder="Enter your Comments here"
+          ></textarea>
+        </div>
+
+      
+        <div class="form-group">
+          <button type="submit" id="submit" class="button-style">
+            Submit
+          </button>
+          <button type="reset" id="reset" class="button-style">
+            Reset
+          </button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
