@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
 body{
-    margin: 0px;
+    margin: 0;
     overflow-x: hidden;
 }
-header{
+header, footer{
     background-color: black;
     background-image: linear-gradient(270deg, violet, purple);
     height: fit-content;
@@ -102,4 +103,209 @@ nav li a{
 
 .card .speaker:hover .sp-con{
     display: block;
+}
+
+.card-con{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+}
+.inst h1, .schedule h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+.schedule *{
+    box-sizing: border-box;
+}
+.schedule{
+    background-color: black;
+    color: white;
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*Center line*/
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: white;
+    top: 0;
+    bottom:0;
+    left: 50%;
+    margin-left: -3px;
+}
+.container{
+    padding: 10px 40px;
+    background-color: inherit;
+    color: black;
+    position: relative;
+    width: 50%;
+}
+.content{
+    padding: 10px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+}
+.left{
+    left: 0;
+}
+.right{
+    left: 50%;
+}
+.container::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 100%;
+    top: 15px;
+    z-index: 1;
+}
+.right::after{
+    left: -17px;
+}
+.left::before{
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0px 10px 10px;
+    border-color: transparent transparent transparent white;
+    
+}
+.right::before{
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 20px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0px;
+    border-color: transparent white transparent transparent;   
+}
+footer{
+    height: fit-content;
+    bottom: 0px;
+}
+.footer{
+    margin: 1%;
+    padding: 1%;
+}
+.icon, .foot{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+.icon i{
+    background-color: white;
+    color: black;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 100%;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.icon i:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    font-size: 21px;
+}
+.foot{
+    margin: 2%;
+    margin-top: 3%;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 2px solid white;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+.foot a:first-child{
+    border-left: 0px solid white;
+}
+.foot a:hover{
+    font-size: 21px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 900px){
+    nav{
+        visibility: hidden;
+    }
+    .head h1{
+        font-size: 45px;
+    }
+    .head p, .head button{
+        font-size: 12px;
+        margin-top: 10%; 
+    }
+    .parallax{
+        height: 50vh;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card .speaker{
+        margin: 2%;
+        box-shadow: 1px 2px 2px 1px black;
+    }
+    .card .speaker .sp-con{
+        position: absolute;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: 0px;
+        width:100%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        font-family: sans-serif;
+        display: block;
+    }
+    .card-con{
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+    .timeline::after{
+        left: 30px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 30px;
+    }
+    .right{
+        left: 0;
+    }
+    .container::before{
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0px;
+        border-color: transparent white transparent transparent; 
+    }
+    .left::after, .right::after{
+        left: 12px;
+    }
+    .foot, .icon{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
 }
