@@ -1,0 +1,93 @@
+body
+{
+    background-image: url(/home/jai/snehal/survey1.jpeg);
+    font-family: 'italic', sans-serif;
+    border-style: double dotted outset;
+    border-width: 15px 20px;
+    border-color: #f4d56e whitesmoke;
+    border-top-style:groove;
+}
+
+#title,#description
+{
+    text-align: center;
+    color:red;
+
+    
+}
+footer{
+    background-color:palegreen;
+    text-align: center;
+    color: brown;
+   box-shadow: thistle;
+   border-radius: 50%;
+   border-color: black;
+   border-style: dotted;
+   
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.3;
+    font-size:14px;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bulle
+{
+    background-color:aqua;
+    width: 100%;
+    border-style:solid;
+    border-width: 15px 20px;
+    border-color: #f4d56e ;
+    border-top-style:solid;
+    
+    margin: auto;
+}
+
+#button{
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+@media (min-width :768px){
+
+    #bulle{
+       width: 80%;
+    }
+
+}
+
+@media (min-width :1024px){
+
+    #bulle{
+       width: 80%;
+    }
+
+    form{
+        font-size: 16px;
+    }
+
+}
+
+
+    #bulle{
+       width: 80%;
+    }
+
+    form{
+        font-size: 16px;
+    }
+    
+}
+   

@@ -1,0 +1,44 @@
+
+      .icon{
+        width: 200px;
+        text-align: center;
+      }
+      span{
+        font-size: 100px;
+      }
+      .material-icons-two-tone{
+        font-size: 150px;
+      }
+      .img1{
+        /*position: -webkit-sticky;
+        position: sticky;*/
+        top: 0px;
+        z-index: 1;
+      }
+      .img2{
+        position: absolute;
+        right: 100px;
+        border: 2px groove black;
+      }
+      div{
+        border: 20px double black;
+        /*height: 200px;*/
+        width: 700px;
+        /*position: relative;*/
+        overflow-x: scroll;
+        display: inline-block;
+        clear: left;
+      }
+      img{
+        float: left;
+      }
+      .div{
+        float: left;
+        /*height: 100px;*/
+      }
+      div~pre{
+        color: blue;
+      }
+      div, img{
+        width:50%;
+      }

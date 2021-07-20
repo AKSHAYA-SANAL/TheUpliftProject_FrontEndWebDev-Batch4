@@ -1,0 +1,32 @@
+body{
+    height: 900px;
+    background-color:white;
+   
+}
+.div1{
+    background: white url("plant.jpg") repeat-x fixed;
+    border-style: double dotted outset;
+    border-width: 15px 20px;
+    border-color: #f4d56e #f5d;
+    border-top-style:groove;
+    border: 25px dashed rgb(123,232,122);
+    border-radius: 50px 25px;
+    margin-bottom: 20px;
+}
+.parent{
+    margin:25px;
+}
+.margin{
+    border: 5px solid black;
+    margin: 30px;
+    padding: 20px;
+    max-width:100%;
+    width: 80%;
+    height: auto;
+    text-align: justify;
+    font-size:larger
+}
+span{
+    font-size: xx-large;
+    font-family: sans-serif, serif, arial;
+}

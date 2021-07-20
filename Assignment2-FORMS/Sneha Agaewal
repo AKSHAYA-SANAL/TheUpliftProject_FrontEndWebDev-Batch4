@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for New Account</title>
+    <style>
+    body{
+        background-color:rgb(161, 161, 161);
+    }
+    
+fieldset{
+    background-color:rgb(230, 163, 163);
+    border-width: thick;
+    border-radius: 2px;
+    padding: 5px;
+
+}
+
+#nocursor ::-webkit-outer-spin-button{
+cursor:none;
+}
+        
+#nocursor ::-webkit-inner-spin-button{
+cursor:none;
+} 
+
+legend{
+  background-color: gold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+  font-style: normal;
+  padding: 5px;
+}
+    </style>
+</head>
+<body>
+   <header><h1>APJP BANK </h1>
+    <marquee behaviour="scroll" direction="left" scrollamount="1" >Welcome to APJP Family!&nbsp;
+         Welcome to APJP Family!&nbsp;
+        Welcome to APJP Family!&nbsp;
+    </marquee></header> 
+    <main>
+        <fieldset>
+            <legend>New Users (For Indian Citizens)</legend>
+
+
+            <form method="GET" action="mailto:sneha3agarwal@gmail.com">
+             <p> Name of the Applicant:* <input type="text" placeholder="Eg-Aman Kumar" name="name" id="name" size="40"required></p> 
+             <p>Date of birth:*  <input type="date" placeholder="text" name="dob" id="dob"required ></p>
+             <p>Gender:*
+             <ul>   
+                 <li>Male<input type="radio" placeholder="text" name="gender" id="male"required></li>
+                <li> Female <input type="radio" placeholder="text" name="gender" id="male" required></li>
+            </ul>  
+             </p>
+             <p>
+              Email Address:*  <input type="email" placeholder="abc@gmail.com" name="mailid" id="mailid" size="40" required></p>
+               <p> Contact Details :*  
+                  <input type="number" placeholder="+91" name="numberfixed" id="numberfixed"  size="4" id="nocursor" required readonly>
+                 <input type="tel" placeholder="Enter your 10 Digit Number" name="number" id="number" size="10"  maxlength="10" minlength="10"  required>
+                 
+              </p>
+              <p>Home Address:* <textarea cols="40" rows="5" required></textarea> </p>
+            </fieldset>
+
+<br><br><br><br>
+
+
+
+            <fieldset>
+<legend>Educational Details</legend>
+
+<form>
+<table border="2px" c>
+    <thead>
+        <tr>
+        <th>S.NO.</th>
+<th>INSTITUTION NAME</th> 
+<th>DEGREE</th> 
+<th>YEAR IN WHICH YOU LAST ATTENDED</th> 
+<th>PERCENTAGE/MARKS OBTAINED</th> </tr></thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td><input type="text" name="R1C1" value="Type your institute name" size="30" required></td>
+        <td><input type="text" name="R1C2" value="Type your Degree" size="10" required></td>
+        <td><input type="text" name="R1C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R1C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><input type="text" name="R2C1" value="Type your institute name" size="30" ></td>
+        <td><input type="text" name="R2C2" value="Type your Degree" size="10" ></td>
+        <td><input type="text" name="R2C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R2C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><input type="text" name="R3C1" value="Type your institute name" size="30" ></td>
+        <td><input type="text" name="R3C2" value="Type your Degree" size="10" ></td>
+        <td><input type="text" name="R3C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R3C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><input type="text" name="R4C1" value="Type your institute name" size="30" ></td>
+        <td><input type="text" name="R4C2" value="Type your Degree" size="10" ></td>
+        <td><input type="text" name="R4C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R4C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><input type="text" name="R5C1" value="Type your institute name" size="30" ></td>
+        <td><input type="text" name="R5C2" value="Type your Degree" size="10" ></td>
+        <td><input type="text" name="R5C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R5C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr> <tr>
+        <td>6</td>
+        <td><input type="text" name="R6C1" value="Type your institute name" size="30" ></td>
+        <td><input type="text" name="R6C2" value="Type your Degree" size="10" ></td>
+        <td><input type="text" name="R6C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R6C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><input type="text" name="R7C1" value="Type your institute name" size="30" ></td>
+        <td><input type="text" name="R7C2" value="Type your Degree" size="10" ></td>
+        <td><input type="text" name="R7C3" value="Type the year in which you last attended it" size="4" maxlength="4"></td>
+        <td><input type="number" name="R7C4" value="xx.xx% or xxx/xxx" size="6" maxlength="8"></td>
+        
+    </tr>
+</tbody>
+</table>
+</form>
+
+            </fieldset>
+            <br><br><br><br>
+
+            <fieldset>
+                <legend>Documents and other details</legend>
+                <p>Aadhar Number:* <input type="number" maxlength="12" sixe="12" name="aadharcard" value="aadharcard" required></p>
+                <p> <label for="img">Upload your photograph:*</label>
+                    <input type="file" id="img" name="img" accept="image/*" required>
+                 </p>
+                 <p>Submit Address Proof:*
+                     <select name="address_proof" id="address_proof" required>
+                         <option value="">--Choose an option--</option>
+                     <option value="AadharCard">Aadhar Card</option>
+                     <option value="Income Tax Card">Income Tax Card</option>
+                     <option value="Passport">Passport</option>
+                     <option value="Ration Card">Ration Card</option>
+                     <option value="Voter ID Card">Voter ID Card</option>
+                    </select>
+                    
+                 </p><label for="addressproofpdforimg">Upload above choosen document:*</label>
+<p><input type="file" name="addressproofpdforimg" required></p>                    
+            </fieldset>
+            <br><br><br><br>
+              <p><input type="checkbox">I, hereby ,do declare that all the details provided by me are truthful and real to the best of my knowledge.I shall be made responsible for any ingenunity and mistake,if found,in above given data.</p>
+
+              <p> <input type="submit" value="Submit your Application"> <input type="reset" value="Reset"></p>
+            </form>
+        
+       
+   
+
+        </main>
+   
+</body>
+</html>

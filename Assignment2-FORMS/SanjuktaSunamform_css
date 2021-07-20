@@ -1,0 +1,39 @@
+head .title{
+        color: blue;
+}
+body{
+    /*background-color:rgb(12, 34,78);*/
+    background-image: url("music5.jpg");
+}
+h1{
+        color:blueviolet;
+        font-size: 50px;
+        display:block;
+        text-align: center;
+        font-family: fantasy;
+}
+form{
+        display:block;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+}
+h2{
+        color:brown;
+        padding-left: 6%;
+        font-size: 25px;
+}
+h2.san{
+        padding-right: 6%;
+        text-align: right;
+        color:crimson;
+        font-size: 25px;
+}
+h2:hover {
+        color: blue;
+        transform:scale(1.1);
+}
+h2.san:hover{
+        color: yellow;
+        transform:scale(1.1);
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="event.css">
+  <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+  <title>Bootcamp</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <li><a href="#">CONTACT</a></li>
+      <li><a href="#schedule">SCHEDULE</a></li>
+      <li><a href="#instructors">INSTRUCTORS</a></li>
+      <li><a href="#home">HOME</a></li>
+    </nav>
+    <div class="head" id="home">
+      <h1>Web Development Bootcamp</h1>
+      <p>We are back with another 12 weeks bootcamp fully packed with Live Lectures and Fun projects....</p>
+      <p>Registration closes soon...</p>
+      <button>Register Here</button>
+    </div>
+  </header>
+  <div class="parallax"></div>
+  <div class="inst" id="instructors">
+    <h1>Instructors</h1>
+    <div class="card">
+      <div class="speaker">
+        <img src="https://www.pngarea.com/pngm/15/5330487_person-icon-png-person-female-icon-hd-png.png" alt="Larry">
+        <div class="sp-con">
+          <div class="card-con">
+            <h2>LARRY THOMAS</h2>
+            <p>Fullstack Web developer, XYZ</p>
+          </div>
+        </div>
+      </div>
+      <div class="speaker">
+        <img src="https://www.pngarea.com/pngm/15/5330487_person-icon-png-person-female-icon-hd-png.png" alt="Larry">
+        <div class="sp-con">
+          <div class="card-con">
+            <h2>TOM S</h2>
+            <p>MERN Stack Developer, ABC</p>
+          </div>
+        </div>
+      </div>
+      <div class="speaker">
+        <img src="https://www.pngarea.com/pngm/15/5330487_person-icon-png-person-female-icon-hd-png.png" alt="Larry">
+        <div class="sp-con">
+          <div class="card-con">
+            <h2>ANGELA</h2>
+            <p>Fullstack Web developer, ABC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="schedule" id="schedule">
+    <h1>Schedule</h1>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h3>10 July 2021</h3>
+          <h4>Registration Starts</h4>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h3>20 July 2021</h3>
+          <h4>Registration Ends</h4>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h3>1 August 2021</h3>
+          <h4>Program Starts</h4>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h3>1 October 2021</h3>
+          <h4>Program Ends</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="icon">
+        <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-envelope"></i></a>
+        <a href="#"><i class="bi bi-telephone-fill"></i></a>
+      </div>
+      <div class="foot">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+        <a href="#">Location</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

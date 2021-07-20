@@ -1,0 +1,28 @@
+*{
+    /*background-color:rgb(12, 34,78);*/
+    background-color:hsl(5,50%,0%);
+}
+div{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 100px;
+    color: rgba(0,0,0,0.6)
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+#first_head{
+    font-size: 50px;
+}
+
+.lorem{
+    color:tomato;
+}
+h1.lorem{
+    color: blue;  /*Color of heading is blue*/
+}
+h1, p{
+    background-color:#ff0000;
+}

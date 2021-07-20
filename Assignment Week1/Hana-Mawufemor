@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yaa Asantewaa  </title>
+    <style>
+        .primary {
+         text-align: center    
+        }
+        {
+            font-size: 200%;
+        }
+        image figure{
+          display: inline-block;
+      }
+
+                                .image figure{
+
+                                    float: right;
+                                }
+                                figcaption{
+                                    text-align: center;
+                                }
+
+                                .head h1{
+                                    text-align: center;
+                                }
+                                li{
+                                    font-size: 25px;
+                                }
+                        </style>
+                        <body>
+                            <header>
+                                <div class="head">
+                                    <h1 style="font-size: 400%;">Welcome</h1>
+                                                           </div>
+                            </header>
+
+        <br><br>
+        <div class="primary" style="background: brown;">
+            <H1 style="font-size:400%"> YAA ASANTEWAA </H1>
+            <img src="image/yaa1.jpg" alt="YAA ASANTEWAA" width="600" height="600"><br><br><br>
+
+            <q style="font-size: 200%" >If you the men of Asante will not go forward, then we will go. We, the women, will. I shall call upon my fellow women. We will fight! We will fight till the last of us fall in the battlefield.</q><br>
+            <cite><b>-- YAA ASANTEWAA </b> </cite><br><br>
+
+            <section id="section1" >
+                <h2>ABOUT YAA ASANTEWAA </h2>
+                <p style="font-family: serif;">Born in 1840 in Besease by Kwaku Ampoma and Ata Po in southern Ghana, Yaa Asantewaa was the oldest of two children. Her brother, Afrane Panin, became the chief of Edweso, a nearby community. After a childhood without incident, she cultivated crops on the land around Boankra. She entered a polygamous marriage with a man from Kumasi, with whom she had a daughter. Yaa Asantewaa (17 October 1840 – 17 October 1921) was the queen mother of Ejisu in the Ashanti Empire – now part of modern-day Ghana – appointed by her brother Nana Akwasi Afrane Opese, the Edwesuhene, or ruler, of Edwesu. In 1900 she led the Ashanti war known as the War of the Golden Stool, also known as the Yaa Asantewaa War, against British colonialism.</p><br>
+</section>
+
+
+<section id="section a" >
+    <h2>HER IMPACT </h2>
+    <p>Asantewaa understood the ramifications of British occupation. She is seen by Ghanaians today as a queen mother who exercised her political and social clout to help defend her kingdom. The role she played in influencing the Ashanti men to battle the British appears to be a function of her matriarchal status. The experience of seeing a woman serving as political and military head of an empire was foreign to British colonial troops in 19th-century Africa. Yaa Asantewaa's call upon the women of the Asante Empire is based on the political obligations of Akan women and their respective roles in legislative and judicial processes. The hierarchy of male stools among the Akan people was complemented by female counterparts. Within the village, elders who were heads of the matrilineages (mpanyimfo), constituted the village council known as the ôdekuro. The women, known as the mpanyinfo, and referred to as aberewa or ôbaa panyin, were responsible for looking after women's affairs. For every ôdekuro, an ôbaa panyin acted as the responsible party for the affairs of the women of the village and served as a member of the village council.
+        <br>
+
+        Yaa Asantewaa was chosen by a number of regional Asante kings to be the war-leader of the Asante fighting force. This is the first and only example for a woman to be given that role in Asante history. The Ashanti-British War of the Golden Stool – also known as the "Yaa Asantewaa War" – was led by Queen Mother Nana Yaa Asantewaa with an army of 5,000.
+        </p><br>
+</section>
+
+<section id="section b">
+    <h2>HER LEGACY </h2>
+    <p>To highlight the importance of encouraging more female leaders in Ghanaian society, the Yaa Asantewaa Girls' Secondary School was established at Kumasi in 1960 with funds from the Ghana Education Trust.</p> <br>
+</section></p> <br>
+</section>
+
+<section id="section c"></section>
+<h2>HOW SHE DIE?</h2>
+<p>Yaa Asantewaa died in exile in the Seychelles on  17 October 1921. Three years after her death, on  17 December 1924, Prempeh I and the other remaining members of the exiled Asante court were allowed to return to Asante. Prempeh I made sure that the remains of Yaa Asantewaa and the other exiled Asantes were returned for a proper royal burial. Yaa Asantewaa's dream for an Asante free of British rule was realized on  6 March 1957, when the Asante protectorate gained independence as part of Ghana. Ghana was the first African nation in Sub-Saharan Africa to achieve this feat. She died in 1921. She was a successful farmer and mother. She was an intellectual, a politician, human right activist, queen and a leader. Yaa Asantewaa became famous for leading the Ashanti rebellion against British colonialism to defend the Golden Stool. </p><br>
+</section>
+
+
+
+        <footer style="text-align: center;">
+ <h1 style="font-size: 200%">This page is tribute to Yaa Asantewaa.<br>Thanks for reading.&#128512</br> <br>Hope you enjoyed !!!!</br></mark></i></p>
+ </footer>    </h1>
+
+
+   <strong>To know more about Yaa Asantewaa - click on <a
+                    href="https://en.wikipedia.org/wiki/Yaa_Asantewaa">Wikipedia</a>
+            </strong>   
+            <footer>
+                <div>Created by Hana Mawufemor copyright&copy;</div>
+            </footer>
+
+                </body>
+            </html>
