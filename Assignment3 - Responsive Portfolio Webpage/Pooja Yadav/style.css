@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&family=Ubuntu:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/*navbar styling*/
+
+.sticky-nav {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/*home section*/
+
+.home {
+    display: flex;
+    background: url("image6.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+
+/*all similar content styling code*/
+
+section {
+    padding: 100px 0;
+    font-family: 'Raleway';
+}
+
+.about .about-content,
+.educ-content,
+.education,
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'poppin', sans-serif;
+}
+
+section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+section .title::after {
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    font-size: 20px;
+    color: #00ffcc;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+
+/*about section styling*/
+
+.about .title::after {
+    content: "What I am";
+}
+
+.about .about-content .left {
+    width: 45%;
+}
+
+.about .about-content .left img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 6px;
+}
+
+.about .about-content .right {
+    width: 55%;
+}
+
+.about .about-content .right .text {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span {
+    color: #00ffcc;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.about .about-content .right a {
+    display: inline-block;
+    color: #fff;
+    background: #00ffcc;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #00ffcc;
+    transition: all 0.3s ease;
+}
+
+.about .about-content .right a:hover {
+    color: #00ffcc;
+    background: none;
+}
+
+
+/*Education section*/
+
+.education {
+    color: #fff;
+    background: #111;
+}
+
+.education .title::before {
+    background: #fff;
+}
+
+.education .title::after {
+    background: #111;
+    content: "Qualuification";
+}
+
+.education .educ-content .card {
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+.education .educ-content .card:hover {
+    background-color: #00ffcc;
+}
+
+.education .educ-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.education .educ-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.education .educ-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
+/* skills section styling*/
+
+.skills .title::after {
+    content: "knowledge"
+}
+
+.skills .skills-content .column {
+    width: calc(50%-30px);
+}
+
+.skills .skills-content .column .bars {
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .column .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .column span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.skills .skills-content .column .line {
+    height: 15px;
+    width: 450px;
+    background: lightgray;
+    position: relative;
+}
+
+.skills .skills-content .column .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background-color: #00ffcc;
+}
+
+.skills .skills-content .column .html::before {
+    width: 90%;
+}
+
+.skills .skills-content .column .css::before {
+    width: 85%;
+}
+
+.skills .skills-content .column .Javascript::before {
+    width: 85%;
+}
+
+.skills .skills-content .column .PHP::before {
+    width: 85%;
+}
+
+.skills .skills-content .column .MySql::before {
+    width: 60%;
+}
+
+.skills .skills-content .column .Python::before {
+    width: 80%;
+}
+
+.skills .skills-content .column .Java::before {
+    width: 60%;
+}
+
+.skills .skills-content .column .c::before {
+    width: 80%;
+}
+
+.skills .skills-content .column .Jquery::before {
+    width: 50%;
+}
+
+.skills .skills-content .column .Bootstrap::before {
+    width: 50%;
+}
+
+
+/*Internship section styling*/
+
+.card {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.certificate {
+    width: 50%;
+    height: 200px;
+}
+
+
+/*Extracurricular styling section*/
+
+#extracurricular {
+    text-align: center;
+}
+
+
+/*Contact styling section*/
+
+.contact h4 {
+    text-align: center;
+}
+
+
+/*Footer Section styling*/
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.footer p {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+@media(max-width:1300px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:1109px) {
+    .about .about-content .left img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media(max-width:991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media(max-width:947px) {
+    .max-width {
+        padding: 0 50px;
+    }
+    .max-width {
+        max-width: 8300px;
+    }
+    .about .about-content .column {
+        width: 100%;
+    }
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right {
+        flex: 100%
+    }
+    .about .about-content .right p a {
+        text-align: center;
+    }
+    .education .educ-content .card {
+        width: calc(50%-10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column .line {
+        height: 6px;
+        width: 350px;
+    }
+    /*internship styling section*/
+    .card {
+        display: inline-block;
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 25px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .certificate {
+        width: 50%;
+        height: 300px;
+    }
+    .internship-content h3 {
+        font-family: 'poppin', 'sans-serif';
+    }
+}
+
+@media(max-width:690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .education .educ-content .card {
+        width: 100%
+    }
+    .skills .skills-content .column .line {
+        width: calc(50%-10px);
+        height: 5px;
+    }
+    .card {
+        display: inline-block;
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 5px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .certificate {
+        height: 150px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .internship-content h3 {
+        font-family: 'poppin', 'sans-serif';
+    }
+}
+
+@media(max-width:500px) {
+    .card {
+        display: inline;
+    }
+}
