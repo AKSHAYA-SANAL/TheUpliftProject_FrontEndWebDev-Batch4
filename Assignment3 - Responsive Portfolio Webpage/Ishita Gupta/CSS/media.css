@@ -1,189 +1,187 @@
-@media screen and (max-width: 1100px){
-.navbar h1{
-    font-size: 46px;
-}
-.navbar li a{
-    margin: 0px ;
-    padding: 9px;
-    font-size: 17px;
-    font-weight: bold;
-}
-header h1{
-    font-size: 63px;
-}
-
-header span{
-    font-size: 63px;
-}
-header ul li{
-    font-size: 14px;
-}
-abbr {
-    margin: 36px;
-}
-
-.txt{
-    text-align: center;
-}
-.btn{
-    padding: 20px;
-    padding: 1rem;
-    width: 9rem;
-    font-size: 14px;
+@media screen and (max-width: 800px){
+    .navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar h1{
+        display: none;
+    }
+    .navbar li a{
+        margin: 5px ;
+        padding: 2px;
+        font-size: 16px;
+        
+    }
+    
+    header h1{
+        font-size: 40px;
+    }
+    header span{
+        font-size: 40px;
+    }
+    header ul li {
+        padding: 0px;
+        font-size: 12px; 
+    }
+    header ul li a{
+        font-size: 10px;  
+    }
+    abbr {
+        margin: 9px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 13px;
+        width: max-content;
+        
+    }
+    
+    .about-txt{
+        width: 100%;
+        margin-right: 23px;
+    
+    }
+    .about-content {
+        font-size: 25px;
+        flex-direction: column-reverse;
+        
+    }
+    .about-content abbr{
+        margin: 5px;
+    }
+    
+    .about-content h2{
+        font-size: 18px;
+        
+    }
+    .about-content h3{
+        font-size: 16px;
+    }
+    .about-content h1{
+        font-size: 27px;
+    
+    }
+    .about-txt ul{
+        text-align: center;
+        font-size: 16px;
+    }
+    .about-txt p{
+        font-size: 20px;
+    }
+    .about-img img{
+        width: 200px;
+        height: 200px;
+        margin-left: 0%;
+        padding: 13px;
+ 
+    }
+    .skills-anima{
+        width: 98%;   
+    }
+    .main-p{
+        font-size: 40px;
+    }
+    .cards{
+        margin: 7px;
+    }
+    .Services-h1{
+        font-size: 16px;
+    }
+    .main-Services{
+        flex-direction: column;
+        height: max-content;
+    }
+    .primary{
+        height: max-content;
+        margin: 8% 0;    
+    }
+    
+    
+.work-txt h1 {
+    font-size: 69px;
     
 }
-.about{
-    height: 100vh;
 
+.work-txt p {
+    font-size: 23px;
 }
-.about-txt{
-    width: 60%;
-    margin-right: 32px;
 
+.cards_item { 
+    flex-basis: 100%;
+    height: max-content;
 }
-.about-content{
-	font-size: 25px;
-    margin-top: 5%;
-    width: 90%;
-  
-   
-}
-.about-content abbr{
-    margin: 9px;
-}
-.about-content h3{
-    font-size: 16px;
 
-}
-.about-content h1{
-    font-size: 27px;
 
-}
-.about-txt ul{
-    font-size: 14px;
-}
-.about-txt p{
-    font-size: 16px;
-    margin-top: 26px;
-}
-.about-img img{
-    width: 200px;
-    height: 200px;
-}
-.skills-anima{
-    width: 95%;
-    color: rgb(255, 255, 255);
-}
-.container{
-    height: 155vh;
-}
-.main-Services{
+#footer-sec{
+    background: url(https://images.pexels.com/photos/1670035/pexels-photo-1670035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 55%;
-    width: 81%;
-    margin-top: -5%;
     
 }
-.Services-h1{
-    font-size: 20px;
-    margin-bottom: 97px;
-}
-.primary{
-    width: 95%;
-    display: flex;
-    height: 150vh;
-}
-.main-p{
-	font-size: 50px;
-}	
-.cards-p{
-    font-size: 13px;
-}
-.cards{
-    display: flex;
-    margin-left: 0.7rem;
-    padding: 5px;
-    width: 64%;
-    margin: 4px;
-    align-items: center;
-    justify-content: center;
-    height: 81%;
-}
-.cards i{
-    font-size: 70px;
-    margin-top: 16px;
-	
-}
- .work{
-     height: 165vh;
- }
- .work-txt h1{
-     font-size: 53px;
- }
- .work-txt p{
-     font-size: 20px;
- }
- .work-class{
-     height: 150vh;
- }
- .cards-work{
-     flex-direction: column;
-     width: 70%;
- }
-
 .form-container{
-    height: 125vh;
+    height: max-content;
+    
 }
 .form-container h1{
-    font-size: 53px;
-
+    font-size: 51px;
+   
+    
 }
 .form-container p{
-    font-size: 20px;
+    font-size: 23px;
+    
 }
-.field-copy:hover{
-    background-color:black;
-    border: 1px solid white;
-}
-.forms{
-    background: url(https://images.pexels.com/photos/1670035/pexels-photo-1670035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center/cover;
+.field-copy{
+    width: 74%;
+    margin: 33px;
+    padding: 29px 51px;
+    background:none;
+    border: none;   
 }
 .name{
-    display: flex;
+    display: flex;  
     flex-direction: column;
 }
 .form-input{
-    margin-top: 1%;
+    flex-direction: column;
 }
 textarea{
-    margin-top: 16px;
-    opacity: 0.4;
-    border-radius: 32px;
-    font-size: 17px;
+   font-size: 15px;
+   border: 5px solid black;
 }
-
-.btn-form{
-    border-radius: 30px;
-    padding: 3%;
-    width: 10rem;
-    opacity: 0.8;
-    font-size: 17px;
+.btn-form button{  
+    width: 12rem;
+    padding: 3% 0px;
+    font-size: 19px;
+    font-weight: bold;
 }
 
 input{
-    font-size: 18px;
-    width: 13rem;
-    height: 4vh;
+    width: max-content;
+    border: 5px solid black;
 }
-
 label{
-    font-size: 20px;
+    font-size: 23px;
+    margin: 7px;
+}
+input{
+    border: 5px solid black;
+}
+label{
+    font-size: 23px;
     margin: 7px;
 }
 
-
+.social-links i{
+    font-size: 20px;
+    
 }
-
-
+.social-links ul {
+    margin: 35px 0px;
+}
+.copyright{
+    font-size: 18px;
+}
+}
