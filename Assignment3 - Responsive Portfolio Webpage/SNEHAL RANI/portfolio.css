@@ -1,0 +1,256 @@
+*{
+    padding: 0;box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: url('https://www.imagediamond.com/blog/wp-content/uploads/2020/06/cartoon-boy-images-21-1.jpg'),url('https://us.123rf.com/450wm/lantea/lantea1711/lantea171100006/90039581-blue-christmas-background-with-snow-and-black-pine-spruces-sparkling-winter-vector-background-.jpg?ver=6');
+    background-size:40% 100%,cover;
+    background-position: right,center;
+    background-repeat: no-repeat,no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 69%, 46% 100%, 0 72%, 0 0);
+  }
+
+@media only screen and (max-width: 900px){
+    
+    #sidenav{
+        visibility: hidden;
+        position:fixed;
+        top:0;
+        right:0;
+        width:250px;
+        height:100vh;
+        background: rgba(0, 0, 0, 0.541);
+        padding:100px 0px;
+    }
+    #sidenav a{
+        text-decoration: none;
+        color:whitesmoke;
+        font-size: 20px;
+        margin:10px 30px;
+        padding: 20px;
+        display: block;
+    }
+    #sidenav a :hover{
+        background: cyan;
+        transition: 0.5s;
+    }
+    #menubar{
+        position: fixed;
+        top:10px;
+        left:50px;
+        width:50px;
+        cursor:pointer;
+    }
+}
+  
+.logo
+{
+    color:whitesmoke;
+    font-size: 50px;
+    padding-left: 100px;
+    letter-spacing: 5px;
+}   
+.menu a{
+    color:white;
+    text-decoration: turquoise;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size:20px ;
+    font-weight: bold;
+}
+.menu{
+    margin-top: 100px;
+    margin-right:100px ;
+}
+nav{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: #e74c3c;
+}
+.menu a:hover{
+    background: cyan;
+    transition: 0.5;
+}
+
+.text{
+    color:white;
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+.text h1{
+    font-size: 50px;
+    margin:10px 0px;
+}
+.text p{
+    font-size: 25px;
+    
+}
+.c-btn{
+    border-radius: 3px;
+    box-shadow: rgb(126, 233, 122);
+    outline: deepskyblue;
+    color:floralwhite;
+    background-color: #e74c3c;
+    padding:10px;
+    margin-top: 20px;
+}
+#about{
+    padding:100px 50px;
+    background-image: url('https://media.istockphoto.com/vectors/abstract-polygonal-pattern-luxury-dark-blue-with-gold-background-vector-id1131331687?k=6&m=1131331687&s=612x612&w=0&h=Co9EGOWFBhBrxZOyGUyjePOtYOtJk4DYdF0H6oV01KQ=');
+    background-color: rgba(0, 0, 0, 0.541);
+    background-size: 100%;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 75px;
+    color: chocolate;
+}
+.section-info p{
+    font-size:45px;
+    color:#e74c3c;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+    padding:50px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+.about-right-col h3{
+    font-size: 40px;
+    color: rgb(140, 0, 255);
+    padding: auto;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.about-right-col p{
+    font-size:20px;
+    text-align: justify;
+    color: whitesmoke;
+}
+#skills{
+    padding:100px 50px;
+    background-image:url('https://static.vecteezy.com/system/resources/previews/000/556/845/non_2x/vector-abstract-blue-color-triangles-and-low-polygon-with-lines-connecting-dots-structure-on-dark-background.jpg');
+}
+.skills-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:rgb(45,52,54);
+    padding: 50px;
+}
+.skills-left-col{
+    flex-basis: 50%;
+
+}
+.skills-left-col ul{
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+}
+.skills-right-col{
+    flex-basis: 50%;   
+}
+progress{
+  width:50%;
+}
+.progress-div{
+    width: 70%;
+    margin:auto;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-right: 80px;
+    text-align:right;
+}
+#experiences{
+    padding:100px 50px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/556/845/non_2x/vector-abstract-blue-color-triangles-and-low-polygon-with-lines-connecting-dots-structure-on-dark-background.jpg');
+    
+}
+.experiences-row{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.experiences-box{
+    background-color: blueviolet;
+    color:cornsilk;
+    height: 100%;
+    flex-basis: 35%;
+    text-align:center;
+    box-shadow: 2px 3px 5px grey;
+    padding:40px;
+   margin-top: 20px;
+}
+.experiences-box:hover{
+    background:#e74c3c;
+    color:white;
+    transition: 0.4s;
+}
+.experiences-box img{
+    width: 60%;
+}
+#contact{
+    padding:100px 50px;
+    background-image: url('https://files.oyebesmartest.com/uploads/large/115513299325ek55nr8un8qqhatyti1fip2amjxr8f3nnkz2h5siwurotrssysemnbpxek5q8m7uophqj97wmvzgzprpa9nefghhivukjyryhdi.jpg');
+}
+.contact-row{
+    display:flex;
+    justify-content: space-around space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-left-col{
+    flex-basis: 50%;
+}
+.contact-right-col{
+    flex-basis: 50%;
+}
+#images{
+    padding: 20px;
+    display: block;
+}
+.images icons{
+    box-shadow: 2px 3px 5px grey;
+    padding:40px;
+    display:block;
+    
+    justify-content: space-between;
+    image-rendering:center;
+}
+#footer{
+    background:darkorange;
+    color:whitesmoke;
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
