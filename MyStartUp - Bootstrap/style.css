@@ -140,12 +140,12 @@ a, #navbar a{
 }
 .service-title-1{
   padding: 1rem 2rem 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 .service-title-2{
   padding: 1rem 2rem 1rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 .service-paragraph-1{
@@ -160,8 +160,33 @@ a, #navbar a{
   line-height: 1.4;
   text-align: justify;
 }
-.icon{
-  font-family: 'Material Icons';
-  font-size: 50px; !important
-  color: white;
+.material-icons-outlined.icon{
+  font-size: 48px; 
+  padding: 1rem 2rem 1rem 1rem;
+  font-weight: 900;
+}
+.material-icons.icon{
+  font-size: 48px;
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: 900; 
+ }
+
+ /*--------------------------TEAM-------------------------------*/
+
+.team{
+   padding: 1%;
+}
+.team h1{
+  color: black;
+  margin: 1%;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+  margin-top: 25px;
+  box-shadow: 5px 5px 10px 5px black;
+}
+.card:hover{
+  box-shadow: 2px 2px 10px 5px black;
 }
