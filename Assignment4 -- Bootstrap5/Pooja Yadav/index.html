@@ -1,0 +1,369 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&family=Ubuntu:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*--------------------- Navbar styling----------------------*/
+
+.navbar-nav .nav-link{
+    padding: 1.4rem 2rem;
+    margin: 0rem 2rem;
+    font-size: 1.1rem;
+    position: relative;
+  }
+
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+}
+
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+/*---------------------------------Home CSS-----------------*/
+
+.home{
+    margin-top: -47px;
+    padding:0;
+}
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height:650px;
+    position:relative;
+}
+
+.home .home-banner-1{
+    background-image: url('img/image1.jpg');
+}
+.home .home-banner-2{
+    background-image: url('img/image2.jfif');
+}
+.home .home-banner .home-banner-text{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-110%,-50%)   
+}
+.home .home-banner .home-banner-text h1{
+    font-size:6rem;
+}
+
+.home .carousel-indicators[data-bs-target]{
+    width:2.5rem;
+    height:0.313rem;
+}
+.home .home-banner .home-banner-text .btn-danger{
+    padding:1.5rem 2.5rem;
+}
+
+
+
+
+
+
+/*---------------------Responsive CSS-----------------------------------*/
+
+@media(max-width:1030px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position:65% center;
+        min-height:550px;
+    }
+
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%,-50%);
+    }
+    
+}
+
+@media(max-width:991px){
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%,-50%);
+    }
+
+}
+@media(max-width:767px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position:50% center;
+        min-height:450px;
+    }
+
+    .home .home-banner .home-banner-text{
+        text-align:center;
+        width:100%;
+        transform: translate(-50%,-50%);
+    }
+
+    .home .home-banner .home-banner-text h1{
+        font-size:3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size:1.2rem;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding:0.5rem 1.5rem;
+    }
+    .home .slide-icon{
+        font-size:2rem;
+    } 
+    .card .card1{
+        flex-direction: column; 
+        overflow: auto; 
+        text-align: center; 
+    }
+    .card .card1:hover .sp-con h2{
+        font-style: italic;
+        font-size:0.656rem    
+    }
+    .card .card1:hover .sp-con .card-con a{
+        padding:0.2rem 0.2rem;
+        font-size:0.615rem ;
+       
+    }   
+
+}
+
+/*------------------------------------Course------------------------------------------*/
+
+#course .title{
+    text-align:center;
+}
+.card{
+    display: inline;
+
+}
+.card .card1{
+    width:30%;
+    flex: 30%;
+    float: left;
+    border: 2px solid black;
+    margin: 1%;
+    box-shadow: 2px 5px 10px 5px black;
+    position: relative;
+}
+.card .card1 img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.card .card1 .sp-con{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width:100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-family: sans-serif;
+    display: none;
+}
+
+.card .card1:hover .sp-con{
+    display: block;
+}
+
+.card-con{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+}
+
+/*-----------------------------------------Contact--------------------------------------*/
+
+#contact .title{
+    text-align: center;
+    
+    margin-top:30%;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
+
+/*-----------------------Footer Section styling------------------------------------*/
+
+.footer {
+    color:black;
+    background-color:grey;
+    text-align: center;
+   
+}
+
+.footer p {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+  
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Study Avatar</title>
+  </head>
+
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <-------------------------------------Header------------------------------------------------->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="img/logo3.jpg">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#course">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!--------------------------------------Home section----------------------------->
+    <section id="home" class="home pt-5 overflow-hidden">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="home-banner home-banner-1">
+              <div class="home-banner-text">
+                <h1>E-Learning</h1>
+                <h2>Come and learn</h2>
+                <a href="#" class="btn btn-danger text-uppercase mt-4">Courses</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-banner home-banner-2">
+              <div class="home-banner-text">
+                <h1>Virtual labs</h1>
+                <a href="#" class="btn btn-danger text-uppercase mt-4">Practice</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <span class="ti-angle-left slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <span class="ti-angle-right slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section><br><br><br><br><br><br>
+
+<!-------------------------------Course section here------------------------------>
+
+
+<section id="course">
+  <h1 class="title">Courses</h1><br><br><br>
+  <div class="card">
+    <div class="card1">
+      <img src="img/image3.png" alt="...">
+      <div class="sp-con">
+        <div class="card-con">
+          <h2>BOOTSTRAP</h2>
+          <a href="#" class="btn btn-primary">Enroll</a>
+        </div>
+      </div>
+    </div>
+    <div class="card1">
+      <img src="img/image6.jpg.crdownload" alt="...">
+      <div class="sp-con">
+        <div class="card-con">
+          <h2>JAVASCRIPT</h2>
+          <a href="#" class="btn btn-primary">Enroll</a>
+        </div>
+      </div>
+    </div>
+    <div class="card1">
+      <img src="img/image5.jfif" alt="...">
+      <div class="sp-con">
+        <div class="card-con">
+          <h2>PYTHON</h2>
+          <a href="#" class="btn btn-primary">Enroll</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+    
+
+<!-----------------------------Contact section here------------------------------->
+    <section id="contact" class="contact">
+      <h1 class="title">Contact</h1><br><br>
+      <div class="contact">
+         
+          <h4><i style="font-size:24px" class="fa">&#xf08c;</i>Connect with me via <a href="#">Linkedin</a></h4>
+          <h4><i style="font-size:24px" class="fa">&#xf092;</i>Meet me at <a href="#">Github</a></h4> <br><br> </div>
+  </section>
+
+
+<!------------------------------FOOTER section here-------------------------------->
+
+  <footer class="footer">
+      <div>
+          <p>Website Designed by Pooja yadav</p>
+          <p>All Rights Reserved</p>
+      </div>
+  </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
