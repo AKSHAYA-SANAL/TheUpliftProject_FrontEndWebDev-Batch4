@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agency Website template</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<!--------------------------banner section------------------->
+<section id="banner">
+<div class="container text-center">
+<div class="row text-center">
+<div class="col-md-6">
+<p class="promo-title">Best Digital Agency</p>
+<p>Join us to know more about insurance,accounting and many more.</p>
+<a href="#"><img src="images/play.png" class="play-btn"></a>
+</div>
+<div class="col-md-6 text-centre">
+  <img src="images/home2.png" class="img-fluid">
+</div>
+</div>
+</div>
+<img src="images/wave1.png" class="bottom-img">
+</section>
+
+<!------------------Services Section------------------->
+<section id="services">
+<div class="container text-center">
+<h1 class="title">What We Do ?</h1>
+<div  class="row text-centre">
+<div class="col-md-4 services">
+<img src="images/service1.png" class="service-img">
+<h4>Growth Marketing</h4>
+<p>Join us become your own boss</p>
+</div>
+
+<div class="col-md-4 services">
+<img src="images/service2.png" class="service-img">
+<h4>Online Branding</h4>
+<p>Join us become your own boss</p>
+</div>
+
+<div class="col-md-4 services">
+<img src="images/service3.png" class="service-img">
+<h4>Animated Ads</h4>
+<p>Join us become your own boss</p>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
