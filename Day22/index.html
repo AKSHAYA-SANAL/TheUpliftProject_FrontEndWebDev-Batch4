@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Day1</title>
+</head>
+<body>
+  <h1>Lets learn Javascript</h1>
+  <p id="para">Hello</p>
+  <a href="#">Click</a>
+  <button onClick="document.write(11)">Click</button>
+  <button onClick= "alert(1234)">Click</button>
+  <script>
+   //document.getElementById("para").innerHTML = "Akshaya";
+   //document.write(11)
+   //alert("this is an alert");
+   var a = 5;
+    console.log(a);
+   //ARITHEMATIC OPERATORS  -->  + - * / % ** ++ --
+    x = a + 10;
+    console.log(x);
+    x = a - 5;
+    console.log(x);
+    x = a * 5;
+    console.log(x);
+    x = a / 5;
+    console.log(x);
+    x = a % 3;
+    console.log(x);
+    x = a**2;
+    console.log(x);
+    a++; //a = a+1
+    console.log(a);
+    a--; //a = a-1
+    console.log(a);
+    a--;
+    console.log(a);
+
+    //ASSIGNEMENT OPERATORS
+    x += a; //x = x + a
+    console.log(x);
+    x -= a; //x = x - a
+    console.log(x);
+    x *= a; //x = x * a
+    console.log(x);
+    x /= a; //x = x / a
+    console.log(x);
+    x %= a; //x = x % a
+    console.log(x);
+    x &= a; //x = x & a
+    console.log(x);
+    x |= a; //x = x | a
+    console.log(x);
+    x ^= a; //x = x ^ a
+    console.log(x);
+    x **= a; //x = x ** a
+    console.log(x);
+    x >>= a; //x = x >> a
+    console.log(x);
+
+    //Concatenation
+    var b = "Hello ";
+    var c = " World";
+    var z = " "; 
+    var d = b + " " + c;
+    console.log(d);
+
+    d = a + b;
+    console.log(d);
+
+    var n = "5";
+    console.log("5" + 5);
+
+    //COMPARISON OPERATOR
+    var a = 10;
+    var b = "10";
+    var c = a == b; //only value
+    console.log(c);
+    var c = a != b;
+    console.log(c);
+    var c = a === b; //both value and type
+    console.log(c);
+    var c = a !== b;
+    console.log(c);
+    var c = a > b;
+    console.log(c);
+    var c = a < b;
+    console.log(c);
+    var c = a >= b;
+    console.log(c);
+    var c = a <= b;
+    console.log(c);
+
+    //logical
+    b = 5;
+    c = a && b;
+    console.log(c);
+    c = a || b;
+    console.log(c);
+    
+    //type operator
+    //1. typeof()
+    console.log(typeof(c));
+    console.log(typeof(b));
+    x = "hello";
+    console.log(typeof(x));
+    var y = 10.09;
+    console.log(typeof(y)); 
+    //2. instanceof()
+    
+    //BITWISE operator & | ~ ^ << >> 
+
+  </script>
+</body>
+</html>
