@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--------------------------Header------------------------>
+    <header>
+
+        <!----------------------Background-Image-------------->
+        <div class="bg-img" id="bg-img"></div>
+        
+        <!-----------------------Content---------------------->
+        <div class="h-con" id="h-con">
+            <h1>Image Gallery</h1>
+            
+            <!-------------------Trigger for Modal------------------->
+            <button id= "myBtn">Click to see a Modal</button>
+        </div>
+    </header>
+
+    <!----------------------------Modal---------------------------->
+    <div id="modal" class="modal">
+
+        <!------------------ Modal content------------------------->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Welcome to our Image Gallery!!</h2>
+            <h4>Want to contribute?? <button class="contact">Contact Us</button> </h4>
+        </div>
+    </div>
+
+    <!---------------------------Images------------------------>
+    <div class="image">
+        <img id="img1" src="https://images.unsplash.com/photo-1612151855475-877969f4a6cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGQlMjBpbWFnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="img1">
+        <img id="img2" src="http://farm4.static.flickr.com/3563/3486756814_08ebc50268_z.jpg" alt="img2">
+        <img id="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHmCRhm_qatit8Mj03syfTDFjmnB5tz6v6Rg&usqp=CAU" alt="img3">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
