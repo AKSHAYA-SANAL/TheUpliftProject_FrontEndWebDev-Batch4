@@ -1,0 +1,37 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+.sidenav{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    width: 0;
+    transition: 0.5s;
+}
+
+.sidenav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px 10px 40px;
+    color: #818181;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    font-weight: bold;
+}
+.sidenav .cross{
+    top: 10px;
+    right: 25px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.main{
+    padding-left: 20px;
+    transition: margin-left 0.5s;
+}
