@@ -19,12 +19,82 @@
         <a href="#">Contact Us</a>
     </div>
 
-    <!-----------------HEADER-------------------->
+    <!-----------------CONTENT-------------------->
     <div id="main" class="main">
+        
+        <!--------------------------HEADER------------------------>
         <h1>IMAGE GALLERY</h1>
         <span onclick="openNav()">&#8592; Explore</span>
     </div>
+<!----------------------BODY----------------------->
+        <div class="images">
+            <div class="row">
+                <div class="column">
+                    <img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sea">
+                </div>
 
+                <div class="column">
+                    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="mount">
+                </div>
+
+                <div class="column">
+                    <img src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="ice">
+                </div>
+
+                <div class="column">
+                    <img src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sunset">          
+                </div>
+            </div>
+        </div>
+
+        <!----------------------MODAL-------------------->
+        <div class="modal" id="modal">
+            <span class="cross">&times;</span>
+
+            <div class="modal-content">
+
+                <div class="slide">
+                    <div class="number">1/4</div>
+                    <img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sea" style="width: 100%;">
+                </div>
+
+                <div class="slide">
+                    <div class="number">2/4</div>
+                    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="mount" style="width: 100%;">
+                </div>
+
+                <div class="slide">
+                    <div class="number">3/4</div>
+                    <img src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="ice" style="width: 100%;">
+                </div>
+
+                <div class="slide">
+                    <div class="number">4/4</div>
+                    <img src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sunset" style="width: 100%;">
+                </div>
+
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+
+                <!---------------------THUMBNAIL PICTURES----------------------->
+                <div class="column">
+                    <img class="demo" src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sea">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="mount">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="ice">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sunset">          
+                </div>
+            </div>
+         </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
