@@ -35,3 +35,18 @@ body{
     padding-left: 20px;
     transition: margin-left 0.5s;
 }
+
+.images{
+    margin-top: 50px;
+}
+
+.column{
+    display: inline-block;
+    width: 23.5%;
+    margin: .5%;
+}
+
+.column img{
+    width: 100%;
+    height: 300px;
+}
