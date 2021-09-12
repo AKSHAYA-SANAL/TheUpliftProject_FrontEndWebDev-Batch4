@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+    <title>Tokyo Olympics : India</title>
+    <style>
+        .d-block {
+            height:500px;
+            width:300px;
+        }
+ 
+
+        .medalists{
+          background-color: darkslateblue;
+         padding : 2px, 2px,2px,2px;
+         margin-left: 40px;
+         margin-right: 0px;
+        }
+        .medalists-left-col{
+          background-color: darkslateblue;
+         padding : 2px, 2px,2px,2px;
+         margin-left: 40px;
+         margin-right: 0px;
+        }
+        .medalists-right-col{
+          background-color: darkslateblue;
+         padding : 2px, 2px,2px,2px;
+         margin-left: 40px;
+         margin-right: 0px;
+         box-sizing: content-box;
+        }
+
+
+        .card{
+          padding-top:10px;
+          margin-left: 30px;
+          margin-top:30px;
+          column-width: 40px;
+          display:grid;
+        }
+        
+
+/**  -------------Social media Links--------**/
+
+
+.socialmediaLinks ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .socialmediaLinks ul li .fa {
+        color: #000000;
+        font-size: 25px;
+        line-height: 50px;
+        transition: .5s;
+    }
+    .socialmediaLinks ul li .fa:hover {
+          color: #ffffff;
+       
+    }
+    .socialmediaLinks ul li a {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .socialmediaLinks ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    .socialmediaLinks ul li:nth-child(1) a:hover {
+        background-color: #3b5999;
+    }
+    .socialmediaLinks ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+    .socialmediaLinks ul li:nth-child(3) a:hover {
+        background-color: #f81cc1;
+       }
+         .socialmediaLinks ul li:nth-child(1) a {
+        background-color: orange;
+    }
+    .socialmediaLinks ul li:nth-child(2) a {
+        background-color: white;
+    }
+    .socialmediaLinks ul li:nth-child(3) a{
+        background-color: green;
+   /******************Timeline*****************************/
+   .schedule *{
+    box-sizing: border-box;
+}
+.schedule h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+.schedule{
+    
+    color: white;
+    background-color:black;
+    border: left 30px;;
+    border-radius: 35%;
+    border:top 50px;
+    border-color: cyan;
+}
+.timeline{
+    position: relative;;
+    max-width: 1200px;
+    margin:auto;
+}
+/*Center line*/
+.timeline::after{
+    content:'';
+    position:absolute;
+    width:5px;
+    background-color:white;
+    top: 0;
+    bottom:0;
+    left: 50%;
+    margin-left: -3px;
+}
+.container{
+    padding: 10px 40px;
+    background-color: inherit;
+    color: black;
+    position: relative;
+    width: 50%;
+}
+.content{
+    padding: 10px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+}
+.left{
+    left: 0;
+}
+.right{
+    left: 50%;
+}
+.container::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 100%;
+    top: 15px;
+    z-index: 1;
+}
+.right::after{
+    left: -17px;
+}
+.left::before{
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0px 10px 10px;
+    border-color: transparent transparent transparent white;
+    
+}
+.right::before{
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 20px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0px;
+    border-color: transparent white transparent transparent;   
+}
+
+        
+
+        /** -----------Footer    --------------------------- **/
+        footer {
+    background-color:darkblue;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+        
+    </style>
+</head>
+<body>
+    <!--     Recent News Headlines-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+
+
+        <div class="carousel-inner">
+
+
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/04/988826-indian-women-s-hockey-team.jpg" width:60% class="d-block w-100" alt="Women Hockey Team">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Women Hockey Team embarked a historic coming Olympic in coming years</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7f0QRJn2fUVfIC8nWlx2CFSmmDs6HSSX37g&usqp=CAU" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tokyo Olympics</h5>
+              <p>This time 2020 pending olympics was </p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="https://thebridge.in/h-upload/2021/07/28/12196-indian-hockey-mens-team-at-the-tokyo-olympics.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Men Hockey Team</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="https://static.independent.co.uk/2021/07/23/22/AFP_9FR4L4.jpg?width=982&height=726&auto=webp&quality=75" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tokyo opening ceremony</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+
+
+          <div class="carousel-item">
+            <img src="https://www.deccanherald.com/sites/dh/files/gallery_images/2021/08/07/BeFunky-collage%20-%202021-08-07T193844.664.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Olympics Stars</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="https://securecdn.pymnts.com/wp-content/uploads/2021/04/Olympic-Virtual-Series-IOC-1000x600.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medals</h5>
+              <p> This time India created a history by winning 7 medals in tokyo Olympics.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="https://assets.catawiki.nl/assets/2020/3/31/e/9/1/e914d6a4-dece-4cfb-8f71-8426ffa9df2a.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="https://c.ndtvimg.com/2021-08/mhifnsjg_tokyo-olympics-opening-ceremony-afp_625x300_08_August_21.jpg?im=FaceCrop,algorithm=dnn,width=806,height=605" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Closing ceremony</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+      <!------------------------------About Winners------------------------------------------>
+
+   
+ <section id= "medalists"  >
+     <h1> TOKYO OLYMPICS WINNERS</h1>
+    <div class="medalists -row">
+        <div class="medialists-left-col">
+
+             <!------------ Winner 1 : Neeraj Chopra------------------------>
+      <div class="card " style="width: 18rem;">
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/AP21219462944826_1200x768.jpeg?MxySq3g0tSlHuHuz.A_tzU5Tds86JwmQ&size=770:433" class="card-img-top" alt="Neeraj Chopra holding Olympic Gold Medal">
+        <div class="card-body">
+          <h5 class="card-title">Neeraj Chopra</h5>
+          <p class="card-text">He is an Indian track and field athlete who competes in the Javelin Throw.</p>
+          <a href="https://en.wikipedia.org/wiki/Neeraj_Chopra" class="btn btn-primary"> Know more about India's Golden Boy</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjq77yogObyAhVCAXIKHSpJDlwQFnoECAkQAw&url=https%3A%2F%2Fwww.facebook.com%2Fneerajchopra01&usg=AOvVaw1C2fThDtPST6EvXptCH3e5" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwidneiFgObyAhVJWX0KHfP2Am4Q6F56BAgCEAI&url=https%3A%2F%2Ftwitter.com%2FNeeraj_chopra1%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw3N-bjeiSyeG5u_pzpoB3Io" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwidneiFgObyAhVJWX0KHfP2Am4QFnoECAMQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fneeraj____chopra%2F%3Fhl%3Den&usg=AOvVaw1d76666CUCf1VaeUkvYdTy" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+      
+
+       <!------------ Winner 2-  Mira Bai Chanu----------------------->
+      <div class="parallax">
+       <div class="card" style="width: 18rem;">
+        <img src="https://img.onmanorama.com/content/dam/mm/en/sports/other-sports/images/2021/7/24/chanu-lift.jpg" class="card-img-top" alt="Mira Bai Chanu giving every Indian goosebumps and a chill in the nerve through her performance in Tokyo Olympics">
+        <div class="card-body">
+          <h5 class="card-title">Saikhom Mirabai Chanu</h5>
+          <p class="card-text">Weightlifter Saikhom Mirabai Chanu scripted history when she claimed a silver medal in the women's 49 kg weight category to open India's account on the first day of medal events in olympics.</p>
+          <a href="https://en.wikipedia.org/wiki/Saikhom_Mirabai_Chanu" class="btn btn-primary">Know more about Mirabai</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiGpJrg_-XyAhV5lEsFHWyNBhcQFnoECAkQAw&url=https%3A%2F%2Fwww.facebook.com%2Fs.mirabaichanu&usg=AOvVaw0s6oCIjfxS3t7zc02IIrcD" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiGpJrg_-XyAhV5lEsFHWyNBhcQ6F56BAgQEAI&url=https%3A%2F%2Ftwitter.com%2Fmirabai_chanu%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw3ri6ncrf6P_DDbFgL23UlQ" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjT16z7_-XyAhWEbysKHVJLBFIQFnoECAkQAw&url=https%3A%2F%2Fwww.instagram.com%2Fmirabai_chanu%2F%3Fhl%3Den&usg=AOvVaw1PrCxfYSNJrc13zDh2IwN7" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+       <!------------ Winner 3  Ravi Kumar Dahiya------------------------>
+       <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZKebIOCzh0tLi7uoDzqQkcv0g09HoCACH-PF7dsxkXjuWqU19yvIGTZDRLQEgljf3dkk&usqp=CAU" class="card-img-top" alt="Ravi Kumar Dahiya with his Historic Silver">
+        <div class="card-body">
+          <h5 class="card-title">Ravi Kumar Dahiya</h5>
+          <p class="card-text">For Ravi Kumar Dahiya, a silver medal is a reminder of a gold lost. He is a  freestyle wrestler who won a silver medal at the 2020 Tokyo Olympics in the 57 kg category. He is also a bronze medalist from 2019 World Wrestling Championships and a two-time Asian champion..</p>
+          <a href="https://en.wikipedia.org/wiki/Ravi_Kumar_Dahiya" class="btn btn-primary">Know more about Ravi Dahiya</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj7_obP_-XyAhVOaCsKHfcdAWkQtwJ6BAghEAM&url=https%3A%2F%2Fwww.facebook.com%2FRavikumarDahiyaIndia%2F&usg=AOvVaw3tMFOAQFZUnzvWqH39-dyf" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj74qe8_-XyAhUHbn0KHRGUCRwQFnoECA8QAQ&url=https%3A%2F%2Ftwitter.com%2Fravidahiya60%3Flang%3Den&usg=AOvVaw23JU06MgLSqYT1ggLSL5eT" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj74qe8_-XyAhUHbn0KHRGUCRwQFnoECAIQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fravi_kumar_60%2F%3Fhl%3Den&usg=AOvVaw2y6h-jOniFeXdlHKymkjkh" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+       <!------------ Winner 4---- PV Sindhu-------------------->
+       <div class="card" style="width: 18rem;">
+        <img src="https://images.hindustantimes.com/img/2021/08/03/550x309/20210801184L_1628010960658_1628010976721.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">P. V. Sindhu</h5>
+          <p class="card-text">Pusarla Venkata Sindhu is an Indian professional badminton player. Over the course of her career, Pusarla has won medals at multiple tournaments including Olympics and on the BWF circuit including a gold at the 2019 World Championships.</p>
+          <a href="https://en.wikipedia.org/wiki/P._V._Sindhu" class="btn btn-primary">To know More About PV Sindhu</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj5nq-y_-XyAhXUfX0KHXCCBRkQFnoECAoQAw&url=https%3A%2F%2Fwww.facebook.com%2FPVSindhu01&usg=AOvVaw1MtTZByIxGXllruWlsqPQr" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCv76a_-XyAhWjlEsFHepdAYAQ6F56BAgDEAI&url=https%3A%2F%2Ftwitter.com%2FPvsindhu1%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw1iunEW7OdW5tLHEpnkWxfP" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCv76a_-XyAhWjlEsFHepdAYAQFnoECEgQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fpvsindhu1%2F%3Fhl%3Den&usg=AOvVaw0_s2_qE50cVBpPxqzhNiKy" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+
+       <!------------ Winner 5--  Lovlina Borgohain---------------------->
+       <div class="card" style="width: 18rem;">
+        <img src="https://thebridge.in/h-upload/2021/08/01/12600-lovlina-borgohain.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lovlina Borgohain</h5>
+          <p class="card-text"> An Indian amateur boxer who won a bronze medal at the 2020 Summer Olympics in the women's welterweight event, becoming only the third Indian boxer to win a medal at the Olympics.</p>
+          <a href="https://en.wikipedia.org/wiki/Lovlina_Borgohain" class="btn btn-primary">Know more about Lovlina Borgohain</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjGv96K_-XyAhXFbCsKHfngA94QFnoECAsQAw&url=https%3A%2F%2Fwww.facebook.com%2Fboxerlovlina%2F&usg=AOvVaw21XgSTf5TdiQDd28PoB24y" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi56_Heo97yAhWjheYKHc92Df0QFnoECAIQAQ&url=https%3A%2F%2Ftwitter.com%2Flovlinaborgohai%3Flang%3Den&usg=AOvVaw2ToAmtZPleSwLVhHskBzS0" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi56_Heo97yAhWjheYKHc92Df0QFnoECAMQAQ&url=https%3A%2F%2Fwww.instagram.com%2Flovlina_borgohain%2F%3Fhl%3Den&usg=AOvVaw2TeqGyjyq4EhZek5yDMEVV" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+       <!------------ Winner 6-- Bajrang Punia---------------------->
+       <div class="card" style="width: 18rem;">
+        <img src="https://www.thestatesman.com/wp-content/uploads/2018/08/Bajrang-Punia.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bajrang Punia</h5>
+          <p class="card-text">An Indian freestyle wrestler, who competes in the 65-kg weight category. At the 2020 Tokyo Olympics, Punia won a bronze medal by defeating Kazakhstan’s Daulet Niyazbekov with a wide 8-0 margin. Punia is the only Indian wrestler to win 3 medals at the World Wrestling Championships..</p>
+          <a href="https://images.thequint.com/thequint%2F2021-07%2F85939a8d-96fc-443b-9310-8109518729b5%2FHero_Image_1.jpg?auto=format%2Ccompress&fmt=webp&w=1200" class="btn btn-primary">Know more About Punia</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjMs6DT_uXyAhXegUsFHQlwDpIQFnoECCEQAQ&url=https%3A%2F%2Fwww.facebook.com%2Fbajrangpunia.official&usg=AOvVaw3MDCmRmcpeY21sS6CSnvwQ" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjMs6DT_uXyAhXegUsFHQlwDpIQ6F56BAgCEAI&url=https%3A%2F%2Ftwitter.com%2FBajrangPunia%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw23RtUnGkeDqmBvGk8SEHk3" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjMs6DT_uXyAhXegUsFHQlwDpIQFnoECAwQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fbajrangpunia60%2F%3Fhl%3Den&usg=AOvVaw2wYUJkZo7WHu9lEdKiM9tc" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+       <!------------ Winner 7----India's Men Hockey Team-------------------->
+       <div class="card" style="width: 18rem;">
+        <img src="https://www.hockeyindia.org/static-assets/waf-images/c4/02/e6/21-9/592-444/uwMr805gnY.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Indian Men Hockey Team</h5>
+          <p class="card-text">It has been a long time since hockey enjoyed such a spotlight in our country but since now it's a bronze it will be a game changer.</p>
+          <a href="https://en.wikipedia.org/wiki/India_men%27s_national_field_hockey_team" class="btn btn-primary">Know more about Hockey Team</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://twitter.com/TheHockeyIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+       <!------------ Winner 8-----India's Women Hockey Team-------------------->
+       <div class="card" style="width: 18rem;">
+        <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/04/988826-indian-women-s-hockey-team.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">India's Women Hockey Team</h5>
+          <p class="card-text">India women's hockey team may not have won a medal at the Olympics but it caught the imagination of a cricket-hungry nation. From humble beginnings, the girls rallied against odds and gave it their in the Japanese capital..</p>
+          <a href="https://en.wikipedia.org/wiki/India_women's_national_field_hockey_team" class="btn btn-primary">To  know More about the team spirit of hockey team</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://twitter.com/TheHockeyIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+
+       <!------------ Winner 9------Aditi Ashok------------------>
+       <div class="card" style="width: 18rem;">
+        <img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/162488-pdklgrmkzt-1628231447.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aditi Ashok</h5>
+          <p class="card-text">An Indian professional golfer from Bangalore. She plays on the Ladies European Tour and LPGA Tour. She made her Olympic Games debut at the 2016 Summer Olympics. She qualified for the 2020 Summer Olympics in Tokyo, representing India in golf and finished 4th.</p>
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjp-b_RpN7yAhVaILcAHXumD5cQFnoECAQQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAditi_Ashok&usg=AOvVaw0In6f3P7tJ71YaDz-JWXjG" class="btn btn-primary">Know more about Aditi Ashok</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.facebook.com/aditigolf" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://twitter.com/aditigolf?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.instagram.com/aditigolf/?hl=en" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+       <!------------ Winner 10------Deepak Punia------------------>
+       <div class="card" style="width: 18rem;">
+        <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/05/989078-20210805151828.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Deepak Punia</h5>
+          <p class="card-text">an Indian freestyle wrestler and Junior Commissioned Officer in the Indian Army who won a silver medal at the 2019 World Wrestling Championships in the freestyle 86 kg category and secured a place in the 2020 Summer Olympics. </p>
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjq4LvHpd7yAhWFIbcAHRC8DUIQFnoECAIQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDeepak_Punia_(wrestler)&usg=AOvVaw18LV9QEEaEhgdBXYkOn2fT" class="btn btn-primary">Know more about Deepak Punia</a>
+          <div class="socialmediaLinks">
+            <ul>
+                <li> <a href="https://www.facebook.com/DeepakPunia86" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjmj-a6gObyAhVCAXIKHSpJDlwQFnoECCwQAQ&url=https%3A%2F%2Ftwitter.com%2Fdeepakpunia86%3Flang%3Den&usg=AOvVaw32Uy6lPF6DmZNzB4mqXfeH" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> </li>
+                <li> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjmj-a6gObyAhVCAXIKHSpJDlwQFnoECAUQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fdeepakpunia86%2F%3Fhl%3Den&usg=AOvVaw2ySDfuWQTU05l_tUaonOYd" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a> </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+        </div>
+      
+        
+
+    
+<!---------------------------------Message box-/timeline------>
+
+
+
+
+
+<div class="schedule" id="schedule">
+    <img src="https://reportrdoor.com/wp-content/uploads/2021/07/olympics-2021-opening-ceremony-live-in-us-malaysia-canada-uk-anywhere-reportr-door.jpg" width =100%  height=100%>
+  <h1>Glance of our Historic Tokyo Olympics 2020 held in 2021 !</h1>
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h3>July 23,2021</h3>
+        <h4>Opening Ceremony</h4>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h3>July 26,2021</h3>
+        <h4>Opeing of Medal Accont in Tokyo By Mirabai Chanu</h4>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h3>August 2,2021</h3>
+        <h4>Sindhu won bronze</h4>
+      </div>
+    </div>
+        <div class="container right">
+      <div class="content">
+        <h3>August 4,2021</h3>
+        <h4>Lovina gets bronze in her first olympics</h4>
+      </div>
+    </div>
+         <div class="container left">
+      <div class="content">
+        <h3>August 7,2021</h3>
+        <h4>Historic Gold By Neeraj Chopra</h4>
+      </div>
+    </div>
+         <div class="container right">
+      <div class="content">
+        <h3>August 8,2021</h3>
+        <h4>Punia ended with a bronze</h4>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h3>August 8,2021</h3>
+        <h4>Closing Ceremony</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+    <!-- Footer      -->
+
+    <footer>
+      <a href="#">&copy; 2021 | Sneha Agarwal </a>
+    </footer>
+</body>
+</html>
